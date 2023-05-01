@@ -182,6 +182,6 @@
         font-size: 30px;
         margin-top: 30px;
         margin-bottom: 10px;
-        text-align: center;
+        text-align: left;
     }
 </style>
