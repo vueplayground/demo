@@ -21,7 +21,7 @@
         },
         methods: {
             open(url) {
-                window.open(url, "_blank")
+                location.href = url
             }
         }
     };
