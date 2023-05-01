@@ -41,6 +41,7 @@
         background-color: #ffffffff;
         position: sticky;
         top: 0px;
+        z-index: 10;
     }
 
     button {
