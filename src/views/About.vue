@@ -2,7 +2,7 @@
     <div>
         <VueNavigator />
         <header>
-            <div style="background-size:contain;background-position:center;background-repeat:no-repeat;width:345px;height:125px;margin-right:auto;margin-left:auto;margin-top:70px;position:relative;left:30px;max-width:calc(100% - 40px)" class="logo">
+            <div style="background-size:contain;background-position:center;background-repeat:no-repeat;width:345px;height:125px;margin-right:auto;margin-left:auto;margin-top:70px;position:relative;left:30px;max-width:calc(100% - 100px)" class="logo">
             </div>
             <h1>
                 <em>
@@ -133,5 +133,11 @@
 
     .screenshot {
         background-image: url(@/assets/screenshot.png);
+    }
+
+    @media only screen and (max-width: 600px) {
+        .logo {
+            left: 0px;
+        }
     }
 </style>
