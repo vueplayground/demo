@@ -5,9 +5,25 @@
             <h1>
                 Features
             </h1>
-            <p>
-                This will be updated soon.
-            </p>
+            <div class="feature-list">
+                <div>Code editor</div>
+                <div>Color selector</div>
+                <div>Deploy to GitHub pages</div>
+                <div>Drag & Drop components</div>
+                <div>Drag & Drop elements</div>
+                <div>
+                    Export build
+                </div>
+                <div>Google fonts selector</div>
+                <div>Inline & css styling</div>
+                <div>Layers view</div>
+                <div>Live preview</div>
+                <div>Push to GitHub</div>
+                <div>Routing</div>
+                <div>Transform resize tool</div>
+                <div>Transform positioning tool</div>
+                <div>Transform rotate tool</div>
+            </div>
         </header>
         <main style="text-align:center;width:100%;margin-bottom:50px">
             <section><button @click="$router.push('/pricing')">
@@ -103,5 +119,30 @@
 
     section button:hover {
         background-color: #e6e6e6ff;
+    }
+
+    .feature-list {
+        background-color: #74AE86;
+        color: #ffffffff;
+        text-align: left;
+        padding: 20px 30px;
+        box-sizing: border-box;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+        margin-bottom: 50px;
+        margin-top: 40px;
+        max-width: 500px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .feature-list>div {
+        background-image: url(@/assets/check.png);
+        background-position: 0px 6px;
+        background-repeat: no-repeat;
+        background-size: auto 20px;
+        padding: 5px 30px;
     }
 </style>
