@@ -8,13 +8,14 @@
             <p>
                 This will be updated soon.
             </p>
+        </header>
+        <main style="text-align:center;width:100%;margin-bottom:50px">
             <section><button @click="$router.push('/pricing')">
                     Pricing
                 </button><button @click="open('https://vueplay.app')" class="higlighted">
                     Get Started ⇾
                 </button></section>
-        </header>
-        <main></main>
+        </main>
     </div>
 </template>
 <script>

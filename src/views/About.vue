@@ -13,6 +13,8 @@
             <p>
                 Create Vue Applications using a graphical designer
             </p>
+        </header>
+        <main>
             <section><button @click="$router.push('/features')">
                     Features
                 </button> <button @click="$router.push('/pricing')">
@@ -20,8 +22,6 @@
                 </button><button @click="open('https://vueplay.app')" class="higlighted">
                     Get Started ⇾
                 </button> </section>
-        </header>
-        <main>
         </main>
     </div>
 </template>
@@ -51,6 +51,9 @@
 
     main {
         display: inline-block;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 50px;
     }
 
     header {
