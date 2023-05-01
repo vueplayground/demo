@@ -60,10 +60,10 @@
     }
 
     button:hover {
-        color: #059cedff;
+        color: #74AE86;
     }
 
     button.build:hover {
-        background-color: #059cedff !important;
+        background-color: #74AE86 !important;
     }
 </style>
