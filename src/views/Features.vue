@@ -38,8 +38,8 @@
                 <div>
                     Store online
                 </div>
-                <div>Transform resize tool</div>
                 <div>Transform positioning tool</div>
+                <div>Transform resize tool</div>
                 <div>Transform rotate tool</div>
             </div>
         </header>
