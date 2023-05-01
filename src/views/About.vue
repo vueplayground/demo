@@ -123,7 +123,7 @@
         background-color: #e6e6e6ff;
     }
 
-    logo {
+    .logo {
         background-image: url(@/assets/vueplayground-logo.png);
     }
 </style>
