@@ -70,4 +70,10 @@
     .logo {
         background-image: url(@/assets/vueplayground-logo-long.png);
     }
+
+    @media only screen and (max-width: 600px) {
+        .logo {
+            display: none;
+        }
+    }
 </style>
