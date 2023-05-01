@@ -15,6 +15,9 @@
                     Export build
                 </div>
                 <div>
+                    Export project
+                </div>
+                <div>
                     File explorer
                 </div>
                 <div>Google fonts selector</div>
