@@ -1,6 +1,6 @@
 <template>
     <div class="comparison">
-        <div class="free" @click="redirect('vueplay.app')">
+        <div class="free" @click="redirect('https://vueplay.app')">
             <h2>Free</h2>
             <p>
                 Try out the playground with only a few limitations.
@@ -17,7 +17,7 @@
                 <div>Build distribution</div>
             </div>
         </div>
-        <div class="early-bird" @click="redirect('vueplay.app')">
+        <div class="early-bird" @click="redirect('https://vueplay.app')">
             <h2>Premium</h2>
             <p>
                 Use the full playground without any limitations.
