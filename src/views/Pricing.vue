@@ -10,10 +10,10 @@
             </p>
         </header>
         <main>
-            <section>
+            <section style="text-align:left">
                 <Pricing style="margin-bottom:50px;max-width:786px;text-align:left;margin-right:auto;margin-left:auto" />
             </section>
-            <section>
+            <section style="text-align:center">
                 <button @click="$router.push('/features')">
                     Features
                 </button> <button @click="open('https://vueplay.app')" class="higlighted">
