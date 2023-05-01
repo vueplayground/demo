@@ -7,8 +7,8 @@
             </h1>
             <p>
                 Compare plans
-            </p><iframe src="https://vueplay.app/pricing" style="border-style:none;width:620px;height:426px;margin-bottom:50px">
-            </iframe>
+            </p>
+            <Pricing style="margin-bottom:50px;max-width:786px;text-align:left;margin-right:auto;margin-left:auto" />
             <section>
                 <button @click="$router.push('/features')">
                     Features
@@ -22,11 +22,13 @@
 </template>
 <script>
     import VueNavigator from "@/components/Navigator.vue";
+    import Pricing from "@/components/Pricing.vue";
     export default {
-        data: () => ({}),
         components: {
-            VueNavigator
+            VueNavigator,
+            Pricing
         },
+        data: () => ({}),
         methods: {
             open(url) {
                 location.href = url
