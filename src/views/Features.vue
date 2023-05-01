@@ -154,9 +154,10 @@
         border-bottom-right-radius: 8px;
         margin-bottom: 50px;
         margin-top: 40px;
-        max-width: 500px;
+        max-width: calc(100% - 40px);
         margin-right: auto;
         margin-left: auto;
+        width: 500px;
     }
 
     .feature-list>div {
