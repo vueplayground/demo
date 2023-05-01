@@ -1,7 +1,7 @@
 <template>
     <div>
         <router-view /><button type="" @click="$router.push('/demo')">
-            Got to demo
+            Go to demo
         </button>
     </div>
 </template>
