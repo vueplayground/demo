@@ -223,6 +223,6 @@
     h2 {
         font-size: 30px;
         margin-top: 100px;
-        text-align: center;
+        text-align: left;
     }
 </style>
