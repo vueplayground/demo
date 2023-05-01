@@ -8,7 +8,11 @@
             <p>
                 Compare plans
             </p>
-            <Pricing style="margin-bottom:50px;max-width:786px;text-align:left;margin-right:auto;margin-left:auto" />
+        </header>
+        <main>
+            <section>
+                <Pricing style="margin-bottom:50px;max-width:786px;text-align:left;margin-right:auto;margin-left:auto" />
+            </section>
             <section>
                 <button @click="$router.push('/features')">
                     Features
@@ -16,8 +20,7 @@
                     Get Started ⇾
                 </button>
             </section>
-        </header>
-        <main></main>
+        </main>
     </div>
 </template>
 <script>
@@ -48,6 +51,11 @@
 
     main {
         display: inline-block;
+        text-align: center;
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        margin-bottom: 50px;
     }
 
     header {
