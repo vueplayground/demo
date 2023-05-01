@@ -3,28 +3,32 @@
         <VueNavigator />
         <header>
             <h1>
-                Data Deletion
+                Features
             </h1>
-            <p>Updated 28.04.2023</p>
+            <p>
+                This will be updated soon.
+            </p>
         </header>
-        <main>
-            <section style="max-width:700px;margin:auto">
-                <p>Vue Playground (“we,” “our,” or “us”) is committed to protecting your privacy. This Privacy Policy explains how your personal information is collected, used, and disclosed by Vue Playground.</p>
-                <p>
-                    This Privacy Policy applies to our website, and its associated subdomains (collectively, our “Service”) alongside our application, Vue Playground.
-                    By accessing or using our Service, you signify that you have read, understood, and agree to our collection, storage, use, and disclosure of your personal information as described in this Privacy Policy and our Terms of Service.
-                </p>
-                <h2>Contact Us</h2>
-                <p>Don't hesitate to contact us if you have any questions.</p><a href="mailto:steffan@siglar.no">steffan@siglar.no</a>
-            </section>
+        <main style="text-align:center;width:100%;margin-bottom:50px">
+            <section><button @click="$router.push('/pricing')">
+                    Pricing
+                </button><button @click="open('https://vueplay.app')" class="higlighted">
+                    Get Started ⇾
+                </button></section>
         </main>
     </div>
 </template>
 <script>
     import VueNavigator from "@/components/Navigator.vue";
     export default {
+        data: () => ({}),
         components: {
             VueNavigator
+        },
+        methods: {
+            open(url) {
+                location.href = url
+            }
         }
     };
 </script>
@@ -40,14 +44,6 @@
 
     main {
         display: inline-block;
-        text-align: left;
-        width: 100%;
-        padding: 0px 40px;
-        box-sizing: border-box;
-        margin-bottom: 50px;
-        font-family: verdana;
-        margin-right: auto;
-        margin-left: auto;
     }
 
     header {
@@ -61,7 +57,7 @@
         font-size: 20px;
         color: #6b6b6bff;
         margin-top: 50px;
-        margin-bottom: 15px;
+        margin-bottom: 50px;
     }
 
     h1 {
@@ -70,9 +66,42 @@
         margin-bottom: 30px;
     }
 
-    h2 {
-        font-size: 30px;
-        margin-top: 100px;
-        text-align: left;
+    em {
+        font-style: normal;
+        color: rgba(238, 76, 215, 1);
+    }
+
+    button.higlighted {
+        color: #fff;
+        background-color: #74AE86;
+    }
+
+    button.higlighted:hover {
+        background-color: #8cab96ff;
+    }
+
+    section button {
+        border: none;
+        padding-top: 10px;
+        padding-right: 15px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+        font-size: 17px;
+        margin-right: 20px;
+        cursor: pointer;
+        color: #072c38ff;
+        transition: .5s ease background;
+    }
+
+    section button:last-child {
+        margin-right: 0px;
+    }
+
+    section button:hover {
+        background-color: #e6e6e6ff;
     }
 </style>
