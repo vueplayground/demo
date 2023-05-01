@@ -21,6 +21,12 @@
                     File explorer
                 </div>
                 <div>Google fonts selector</div>
+                <div>
+                    Import assets
+                </div>
+                <div>
+                    Import project
+                </div>
                 <div>Inline & css styling</div>
                 <div>
                     Javascript mockup
