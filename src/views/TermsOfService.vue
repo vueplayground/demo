@@ -100,7 +100,12 @@
                 <h2>Agreement to Arbitrate</h2>
                 <p>This section applies to any dispute EXCEPT IT DOESN’T INCLUDE A DISPUTE RELATING TO CLAIMS FOR INJUNCTIVE OR EQUITABLE RELIEF REGARDING THE ENFORCEMENT OR VALIDITY OF YOUR OR Vue Playground's INTELLECTUAL PROPERTY RIGHTS. The term “dispute” means any dispute, action, or other controversy between you and Vue Playground concerning the Services or this agreement, whether in contract, warranty, tort, statute, regulation, ordinance, or any other legal or equitable basis. “Dispute” will be given the broadest possible meaning allowable under law.</p>
                 <h2>Notice of Dispute</h2>
-                <p>In the event of a dispute, you or Vue Playground must give the other a Notice of Dispute, which is a written statement that sets forth the name, address, and contact information of the party giving it, the facts giving rise to the dispute, and the relief requested. You must send any Notice of Dispute via email to: <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="067572636060676846756f616a677428686928">[email&#160;protected]</a> Vue Playground will send any Notice of Dispute to you by mail to your address if we have it, or otherwise to your email address. You and Vue Playground will attempt to resolve any dispute through informal negotiation within sixty (60) days from the date the Notice of Dispute is sent. After sixty (60) days, you or Vue Playground may commence arbitration.</p>
+                <p>
+                    In the event of a dispute, you or Vue Playground must give the other a Notice of Dispute, which is a written statement that sets forth the name, address, and contact information of the party giving it, the facts giving rise to the dispute, and the relief requested. You must send any Notice of Dispute via email to: 
+                    <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="067572636060676846756f616a677428686928">
+                        steffan@siglar.no
+                    </a> Vue Playground will send any Notice of Dispute to you by mail to your address if we have it, or otherwise to your email address. You and Vue Playground will attempt to resolve any dispute through informal negotiation within sixty (60) days from the date the Notice of Dispute is sent. After sixty (60) days, you or Vue Playground may commence arbitration.
+                </p>
                 <h2>Binding Arbitration</h2>
                 <p>If you and Vue Playground don’t resolve any dispute by informal negotiation, any other effort to resolve the dispute will be conducted exclusively by binding arbitration as described in this section. You are giving up the right to litigate (or participate in as a party or class member) all disputes in court before a judge or jury. The dispute shall be settled by binding arbitration in accordance with the commercial arbitration rules of the American Arbitration Association. Either party may seek any interim or preliminary injunctive relief from any court of competent jurisdiction, as necessary to protect the party’s rights or property pending the completion of arbitration. Any and all legal, accounting, and other costs, fees, and expenses incurred by the prevailing party shall be borne by the non-prevailing party.</p>
                 <h2>Submissions and Privacy</h2>
@@ -118,11 +123,7 @@
                 <p>In no event shall Vue Playground be liable for any special, direct, indirect, consequential, or incidental damages or any damages whatsoever, whether in an action of contract, negligence or other tort, arising out of or in connection with the use of the Service or the contents of the Service. The Company reserves the right to make additions, deletions, or modifications to the contents on the Service at any time without prior notice.</p>
                 <p>The Vue Playground Service and its contents are provided "as is" and "as available" without any warranty or representations of any kind, whether express or implied. Vue Playground is a distributor and not a publisher of the content supplied by third parties; as such, Vue Playground exercises no editorial control over such content and makes no warranty or representation as to the accuracy, reliability or currency of any information, content, service or merchandise provided through or accessible via the Vue Playground Service. Without limiting the foregoing, Vue Playground specifically disclaims all warranties and representations in any content transmitted on or in connection with the Vue Playground Service or on sites that may appear as links on the Vue Playground Service, or in the products provided as a part of, or otherwise in connection with, the Vue Playground Service, including without limitation any warranties of merchantability, fitness for a particular purpose or non-infringement of third party rights. No oral advice or written information given by Vue Playground or any of its affiliates, employees, officers, directors, agents, or the like will create a warranty. Price and availability information is subject to change without notice. Without limiting the foregoing, Vue Playground does not warrant that the Vue Playground Service will be uninterrupted, uncorrupted, timely, or error-free.</p>
                 <h2>Contact Us</h2>
-                <p>Don't hesitate to contact us if you have any questions.</p>
-                <ul>
-                    <li>
-                        Via Email: <a href="mailto:steffan@siglar.no">steffan@siglar.no</a> </li>
-                </ul>
+                <p>Don't hesitate to contact us if you have any questions.</p><a href="mailto:steffan@siglar.no">steffan@siglar.no</a>
             </section>
         </main>
     </div>
@@ -178,9 +179,9 @@
     }
 
     h2 {
-        font-size: 40px;
-        margin-top: 50px;
-        margin-bottom: 30px;
+        font-size: 30px;
+        margin-top: 30px;
+        margin-bottom: 10px;
         text-align: center;
     }
 </style>
