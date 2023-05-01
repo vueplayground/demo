@@ -5,6 +5,9 @@
             <h1>
                 Features
             </h1>
+            <p style="max-width:700px;margin-right:auto;margin-left:auto">
+                Vue Playground is a full drag & drop build designer for vue components and applications
+            </p>
             <div class="feature-list">
                 <div>Code editor</div>
                 <div>Color selector</div>
