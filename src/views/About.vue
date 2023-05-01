@@ -22,6 +22,10 @@
                 </button><button @click="open('https://vueplay.app')" class="higlighted">
                     Get Started ⇾
                 </button> </section>
+            <section>
+                <div style="background-size:contain;background-position:center;background-repeat:no-repeat;margin-right:auto;margin-left:auto;margin-top:70px;position:relative;margin-bottom:50px;max-width:700px;aspect-ratio:1/.389;box-sizing:border-box" class="screenshot">
+                </div>
+            </section>
         </main>
     </div>
 </template>
@@ -125,5 +129,9 @@
 
     .logo {
         background-image: url(@/assets/vueplayground-logo.png);
+    }
+
+    .screenshot {
+        background-image: url(@/assets/screenshot.png);
     }
 </style>
