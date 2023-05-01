@@ -14,6 +14,9 @@
                 <div>
                     Export build
                 </div>
+                <div>
+                    File explorer
+                </div>
                 <div>Google fonts selector</div>
                 <div>Inline & css styling</div>
                 <div>Layers view</div>
