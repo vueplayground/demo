@@ -1,6 +1,6 @@
 <template>
-    <router-view style="display:inline-block" />
-    <Footer style="display:inline-block" />
+    <router-view />
+    <Footer />
 </template>
 <script>
     import Footer from "@/components/Footer.vue";
