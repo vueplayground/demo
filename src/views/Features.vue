@@ -26,6 +26,9 @@
                 <div>Live preview</div>
                 <div>Push to GitHub</div>
                 <div>Routing</div>
+                <div>
+                    Store online
+                </div>
                 <div>Transform resize tool</div>
                 <div>Transform positioning tool</div>
                 <div>Transform rotate tool</div>
