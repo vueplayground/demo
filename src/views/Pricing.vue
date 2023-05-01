@@ -81,13 +81,6 @@
     em {
         font-style: normal;
         color: rgba(238, 76, 215, 1);
-        background: linear-gradient(45deg, rgba(88, 208, 255, 1) 0%, rgba(238, 76, 215, 1) 100%);
-        background-clip: text;
-        text-fill-color: transparent;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        -moz-background-clip: text;
-        -moz-text-fill-color: transparent;
     }
 
     button.higlighted {
