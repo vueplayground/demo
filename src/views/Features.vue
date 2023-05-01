@@ -8,7 +8,7 @@
             <p style="max-width:700px;margin-right:auto;margin-left:auto">
                 Vue Playground is a full drag & drop builder for vue components and applications
             </p>
-            <div class="feature-list">
+            <div class="feature-list" @click="open('https://vueplay.app')" style="cursor:pointer">
                 <div>Code editor</div>
                 <div>Color selector</div>
                 <div>Deploy to GitHub pages</div>
