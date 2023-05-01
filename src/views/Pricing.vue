@@ -6,13 +6,13 @@
                 Pricing
             </h1>
             <p>
-                This will be updated soon.
-            </p>
+                Compare plans
+            </p><iframe src="https://vueplay.app/pricing" style="border-style:none;width:620px;height:426px;margin-bottom:50px">
+            </iframe>
             <section>
                 <button @click="$router.push('/features')">
                     Features
-                </button>
-                <button @click="open('https://vueplay.app')" class="higlighted">
+                </button> <button @click="open('https://vueplay.app')" class="higlighted">
                     Get Started ⇾
                 </button>
             </section>

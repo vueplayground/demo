@@ -1,0 +1,119 @@
+<template>
+    <div class="comparison">
+        <div class="free">
+            <h2>Free</h2>
+            <p>
+                Try out the playground with only a few limitations.
+            </p>
+            <div class="price">
+                0 USD / Month
+            </div>
+            <div class="feature-list">
+                <div>Drag & Drop</div>
+                <div>1 Application</div>
+                <div>Basic styling</div>
+                <div>Basic elements</div>
+                <div>Transform tools</div>
+                <div>Build distribution</div>
+            </div>
+        </div>
+        <div class="early-bird">
+            <h2>Premium</h2>
+            <p>
+                Use the full playground without any limitations.
+            </p>
+            <div class="price">
+                12 USD / Month
+            </div>
+            <div class="feature-list">
+                <div>Everything in Free</div>
+                <div>Unlimited Applications</div>
+                <div>All styles</div>
+                <div>All elements</div>
+                <div>Push to GitHub</div>
+                <div>Deploy to GitHub pages</div>
+            </div>
+        </div>
+    </div>
+</template>
+<script>
+    export default {
+        data: () => ({})
+    };
+</script>
+<style scoped>
+    .comparison {
+        position: relative;
+        display: flex;
+        width: 100%;
+        color: white;
+        font-family: Avenir, Helvetica, Arial, sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+
+    .comparison>div {
+        display: inline-flex;
+        background-color: #74AE86;
+        margin-right: 10px;
+        padding: 30px;
+        width: calc((100% / 2) - (10px / 2));
+        box-sizing: border-box;
+        border-radius: 4px;
+        min-height: 100%;
+        flex-direction: column;
+        cursor: pointer;
+        transition: filter linear .3s;
+        filter: brightness(100%);
+    }
+
+    .comparison>div:hover {
+        filter: brightness(110%);
+    }
+
+    .comparison>div>p {
+        font-weight: 500;
+        color: #ffffffff;
+    }
+
+    .comparison>div:last-child {
+        margin-right: 0px;
+    }
+
+    h2 {
+        display: block;
+        width: 100%;
+        margin: 0px;
+        color: #394657;
+        text-transform: uppercase;
+        font-size: 25px;
+        text-shadow: -2px 0 rgba(255, 255, 255, .2), 0 2px rgba(255, 255, 255, .2), 2px 0 rgba(255, 255, 255, .2), 0 -2px rgba(255, 255, 255, .2);
+    }
+
+    .feature-list>div {
+        background-image: url(@/assets/check.png);
+        background-position: 0px 6px;
+        background-repeat: no-repeat;
+        background-size: auto 20px;
+        padding: 5px 30px;
+    }
+
+    .price {
+        width: 100%;
+        font-size: 30px;
+        font-weight: 900;
+        margin: 5px 0px 15px;
+    }
+
+    @media only screen and (max-width: 600px) {
+        .comparison {
+            display: block;
+        }
+
+        .comparison>div {
+            width: 100%;
+            display: block;
+            margin-bottom: 20px;
+        }
+    }
+</style>
