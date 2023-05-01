@@ -13,7 +13,9 @@
                 <div>1 Application</div>
                 <div>Basic styling</div>
                 <div>Basic elements</div>
-                <div>Transform tools</div>
+                <div>
+                    Basic transform tools
+                </div>
                 <div>Build distribution</div>
             </div>
         </div>
