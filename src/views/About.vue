@@ -14,8 +14,8 @@
                 Create Vue Applications using a graphical designer
             </p>
         </header>
-        <main>
-            <section><button @click="$router.push('/features')">
+        <main style="width:100%">
+            <section style="width:100%"><button @click="$router.push('/features')">
                     Features
                 </button> <button @click="$router.push('/pricing')">
                     Pricing
