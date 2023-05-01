@@ -14,6 +14,18 @@ const routes = [{
     {
         path: '/pricing',
         component: () => import('@/views/Pricing.vue')
+    },
+    {
+        path: '/terms-of-service',
+        component: () => import('@/views/TermsOfService.vue')
+    },
+    {
+        path: '/privacy-policy',
+        component: () => import('@/views/PrivacyPolicy.vue')
+    },
+    {
+        path: '/data-deletion',
+        component: () => import('@/views/DataDeletion.vue')
     }
 ]
 

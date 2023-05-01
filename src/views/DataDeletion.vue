@@ -9,10 +9,8 @@
         </header>
         <main>
             <section style="max-width:700px;margin:auto">
-                <p>Vue Playground (“we,” “our,” or “us”) is committed to protecting your privacy. This Privacy Policy explains how your personal information is collected, used, and disclosed by Vue Playground.</p>
                 <p>
-                    This Privacy Policy applies to our website, and its associated subdomains (collectively, our “Service”) alongside our application, Vue Playground.
-                    By accessing or using our Service, you signify that you have read, understood, and agree to our collection, storage, use, and disclosure of your personal information as described in this Privacy Policy and our Terms of Service.
+                    Request deletion by sending us an email. You should contact us using the same email as your registered account. Later on it will be possible to delete your account with all connected data in the app profile modal.
                 </p>
                 <h2>Contact Us</h2>
                 <p>Don't hesitate to contact us if you have any questions.</p><a href="mailto:steffan@siglar.no">steffan@siglar.no</a>
