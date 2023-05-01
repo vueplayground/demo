@@ -19,6 +19,9 @@
                 </div>
                 <div>Google fonts selector</div>
                 <div>Inline & css styling</div>
+                <div>
+                    Javascript mockup
+                </div>
                 <div>Layers view</div>
                 <div>Live preview</div>
                 <div>Push to GitHub</div>
