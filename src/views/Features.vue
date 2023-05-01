@@ -79,11 +79,11 @@
 
     button.higlighted {
         color: #fff;
-        background-color: #d97de3ff;
+        background-color: #74AE86;
     }
 
     button.higlighted:hover {
-        background-color: #059cedff;
+        background-color: #8cab96ff;
     }
 
     section button {
