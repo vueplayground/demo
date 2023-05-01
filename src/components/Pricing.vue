@@ -1,6 +1,6 @@
 <template>
     <div class="comparison">
-        <div class="free">
+        <div class="free" @click="redirect('vueplay.app')">
             <h2>Free</h2>
             <p>
                 Try out the playground with only a few limitations.
@@ -17,7 +17,7 @@
                 <div>Build distribution</div>
             </div>
         </div>
-        <div class="early-bird">
+        <div class="early-bird" @click="redirect('vueplay.app')">
             <h2>Premium</h2>
             <p>
                 Use the full playground without any limitations.
@@ -38,7 +38,12 @@
 </template>
 <script>
     export default {
-        data: () => ({})
+        data: () => ({}),
+        methods: {
+            redirect(url) {
+                location.href = url
+            }
+        }
     };
 </script>
 <style scoped>
@@ -87,7 +92,6 @@
         color: #394657;
         text-transform: uppercase;
         font-size: 25px;
-        text-shadow: -2px 0 rgba(255, 255, 255, .2), 0 2px rgba(255, 255, 255, .2), 2px 0 rgba(255, 255, 255, .2), 0 -2px rgba(255, 255, 255, .2);
     }
 
     .feature-list>div {
