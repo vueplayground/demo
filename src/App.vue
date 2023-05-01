@@ -1,11 +1,14 @@
 <template>
-    <div>
-        <router-view />
-    </div>
+    <router-view style="display:inline-block" />
+    <Footer style="display:inline-block" />
 </template>
 <script>
+    import Footer from "@/components/Footer.vue";
     export default {
-        data: () => ({})
+        data: () => ({}),
+        components: {
+            Footer
+        }
     };
 </script>
 <style>
@@ -16,9 +19,6 @@
         margin-left: 0px;
         margin-bottom: 0px;
         margin-right: 0px;
-    }
-
-    div {
-        text-align: center;
+        height: 100%;
     }
 </style>
