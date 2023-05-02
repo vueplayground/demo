@@ -37,6 +37,9 @@
                 <div>Layers view</div>
                 <div>Live preview</div>
                 <div>Push to GitHub</div>
+                <div>
+                    Responsive designer
+                </div>
                 <div>Routing</div>
                 <div>
                     Store online
