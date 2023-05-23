@@ -28,8 +28,8 @@ const routes = [{
         component: () => import('@/views/DataDeletion.vue')
     },
     {
-        path: '/change-log',
-        component: () => import('@/views/ChangeLog.vue')
+        path: '/release-log',
+        component: () => import('@/views/ReleaseLog.vue')
     }
 ]
 

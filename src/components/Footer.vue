@@ -5,8 +5,8 @@
             © All rights reserved - Siglar Development AS {{
 new Date().getUTCFullYear()
 }}
-        </p> <router-link to="/change-log">
-            Change log
+        </p> <router-link to="/release-log">
+            Release log
         </router-link>
         -
         <router-link to="/terms-of-service">
