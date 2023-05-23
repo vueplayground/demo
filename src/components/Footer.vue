@@ -1,5 +1,6 @@
 <template>
     <footer style="background-color:#474747ff;height:202px;width:100%;text-align:center;box-sizing:border-box;font-size:23px;display:inline-block;padding-top:27px">
+
         <p style="color:#c9c9c9ff;font-size:16px">
             © All rights reserved - Siglar Development AS {{
 new Date().getUTCFullYear()
