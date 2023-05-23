@@ -25,7 +25,7 @@
                 Use the full playground without any limitations.
             </p>
             <div class="price">
-                12 USD / Month
+                4.99 USD / Month
             </div>
             <div class="feature-list">
                 <div>Everything in Free</div>
