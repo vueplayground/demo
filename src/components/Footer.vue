@@ -4,7 +4,11 @@
             © All rights reserved - Siglar Development AS {{
 new Date().getUTCFullYear()
 }}
-        </p> <router-link to="/terms-of-service">
+        </p> <router-link to="/change-log">
+            Change log
+        </router-link>
+        -
+        <router-link to="/terms-of-service">
             Terms of Service
         </router-link>-<router-link to="/privacy-policy">
             Privacy Policy
