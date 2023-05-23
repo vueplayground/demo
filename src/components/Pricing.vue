@@ -19,8 +19,17 @@
                 <div>Build distribution</div>
             </div>
         </div>
-        <div class="early-bird" @click="redirect('https://vueplay.app')">
-            <h2>Premium</h2>
+        <div class="early-bird" @click="redirect('https://vueplay.app')" style="background-color:#e34343">
+            <h2 style="color:#ffffffff">
+
+
+
+
+                Premium
+                <span style="display:inline-block;color:#ffe100ff">
+                    ★
+                </span>
+            </h2>
             <p>
                 Use the full playground without any limitations.
             </p>
