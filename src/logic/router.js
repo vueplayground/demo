@@ -26,6 +26,10 @@ const routes = [{
     {
         path: '/data-deletion',
         component: () => import('@/views/DataDeletion.vue')
+    },
+    {
+        path: '/change-log',
+        component: () => import('@/views/ChangeLog.vue')
     }
 ]
 
