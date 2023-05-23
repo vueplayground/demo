@@ -3,7 +3,7 @@
         <VueNavigator />
         <header>
             <h1>
-                Change Log
+                Release Log
             </h1>
         </header>
         <main>
