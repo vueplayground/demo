@@ -50,69 +50,69 @@
     </div>
 </template>
 <script>
-    import VueNavigator from "@/components/Navigator.vue";
-    export default {
-        components: {
-            VueNavigator
-        }
-    };
+import VueNavigator from "@/components/Navigator.vue";
+export default {
+    components: {
+        VueNavigator
+    }
+};
 </script>
 <style scoped>
-    body,
-    html,
-    #app {
-        margin-top: 0px;
-        margin-left: 0px;
-        margin-bottom: 0px;
-        margin-right: 0px;
-    }
+body,
+html,
+#app {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+}
 
-    main {
-        display: inline-block;
-        text-align: left;
-        width: 100%;
-        padding: 0px 40px;
-        box-sizing: border-box;
-        margin-bottom: 50px;
-        font-family: verdana;
-        margin-right: auto;
-        margin-left: auto;
-    }
+main {
+    display: inline-block;
+    text-align: left;
+    width: 100%;
+    padding: 0px 40px;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+    font-family: verdana;
+    margin-right: auto;
+    margin-left: auto;
+}
 
-    header {
-        text-align: center;
-        font-family: verdana;
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
+header {
+    text-align: center;
+    font-family: verdana;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 
-    h1 {
-        font-size: 60px;
-        margin-top: 50px;
-        margin-bottom: 30px;
-    }
+h1 {
+    font-size: 60px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
 
-    h2 {
-        font-size: 30px;
-        margin-top: 100px;
-        text-align: left;
-    }
+h2 {
+    font-size: 30px;
+    margin-top: 100px;
+    text-align: left;
+}
 
-    p {
-        font-size: 20px;
-        color: #6b6b6bff;
-        margin-top: 50px;
-        margin-bottom: 15px;
-    }
+p {
+    font-size: 20px;
+    color: #6b6b6bff;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
 
-    ul {
-        padding-left: 18px;
-        display: inline-block;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
+ul {
+    padding-left: 18px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
-    li {
-        padding-bottom: 5px;
-    }
+li {
+    padding-bottom: 5px;
+}
 </style>
