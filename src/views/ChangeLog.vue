@@ -8,18 +8,43 @@
         </header>
         <main>
             <section style="max-width:700px;margin:auto">
-                <p>
-                    Request deletion by sending us an email. You should contact us using the same email as your registered account. Later on it will be possible to delete your account with all connected data in the app profile modal.
-                </p>
+                <h3>
+                    22.05.2023 - Realease 1.0.0
+                </h3>
                 <ul>
                     <li>
                         Design - New login screen
                     </li>
                     <li>
-                        Feature -
+                        Feature - Gradient color selection
                     </li>
-                    <li>List item 3</li>
+                    <li>
+                        Feature - Default styles for elements
+                    </li>
+                    <li>
+                        Feature - Table demo content
+                    </li>
+                    <li>
+                        Feature - List demo content
+                    </li>
+                    <li>
+                        Feature - Allow drop on template
+                    </li>
+                    <li>
+                        Feature - Box shadow controller
+                    </li>
+                    <li>
+                        Feature - Text shadow controller
+                    </li>
+                    <li>
+                        Bugfix - Fix file overwrite when switching between files
+                    </li>
                 </ul>
+            </section>
+            <section style="max-width:700px;margin:auto">
+                <h3>
+                    02.05.2023 - First launch
+                </h3>
             </section>
         </main>
     </div>
@@ -61,13 +86,6 @@
         padding-bottom: 10px;
     }
 
-    p {
-        font-size: 20px;
-        color: #6b6b6bff;
-        margin-top: 50px;
-        margin-bottom: 15px;
-    }
-
     h1 {
         font-size: 60px;
         margin-top: 50px;
@@ -78,6 +96,13 @@
         font-size: 30px;
         margin-top: 100px;
         text-align: left;
+    }
+
+    p {
+        font-size: 20px;
+        color: #6b6b6bff;
+        margin-top: 50px;
+        margin-bottom: 15px;
     }
 
     ul {

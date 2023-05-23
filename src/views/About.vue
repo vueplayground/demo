@@ -2,32 +2,44 @@
     <div>
         <VueNavigator />
         <header>
-            <div style="background-size:contain;background-position:center;background-repeat:no-repeat;width:345px;height:125px;margin-right:auto;margin-left:auto;margin-top:70px;position:relative;left:30px;max-width:calc(100% - 100px)" class="logo">
-            </div>
             <h1>
-                <em>
-                    Drag & Drop
-                </em> <br />
-                Builder
+                Change Log
             </h1>
-            <p>
-                Create Vue Applications using a graphical designer
-            </p>
         </header>
-        <main style="width:100%">
-            <section style="width:100%"><button @click="$router.push('/features')">
-                    Features
-                </button> <button @click="$router.push('/pricing')">
-                    Pricing
-                </button><button @click="open('https://vueplay.app')" class="higlighted">
-                    Get Started ⇾
-                </button> </section>
-            <section>
-                <div style="background-size:contain;background-position:center;background-repeat:no-repeat;margin-right:auto;margin-left:auto;margin-top:70px;position:relative;margin-bottom:50px;max-width:700px;aspect-ratio:1/.389;box-sizing:border-box" class="screenshot">
-                </div>
-                <section style="width:100%">
-                    <a href="https://www.producthunt.com/posts/vue-playground?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-vue&#0045;playground" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=392346&theme=light" alt="Vue&#0032;Playground - Visual&#0032;drag&#0032;and&#0032;drop&#0032;builder&#0032;for&#0032;vue&#0032;components&#0032;and&#0032;apps | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
-                </section>
+        <main>
+            <section style="max-width:700px;margin:auto">
+                <p>
+                    Request deletion by sending us an email. You should contact us using the same email as your registered account. Later on it will be possible to delete your account with all connected data in the app profile modal.
+                </p>
+                <ul>
+                    <li>
+                        Design - New login screen
+                    </li>
+                    <li>
+                        Feature - Gradient color selection
+                    </li>
+                    <li>
+                        Feature - Default styles for elements
+                    </li>
+                    <li>
+                        Feature - Table demo content
+                    </li>
+                    <li>
+                        Feature - List demo content
+                    </li>
+                    <li>
+                        Feature - Allow drop on template
+                    </li>
+                    <li>
+                        Feature - Box shadow controller
+                    </li>
+                    <li>
+                        Feature - Text shadow controller
+                    </li>
+                    <li>
+                        Bugfix - Fix file overwrite when switching between files
+                    </li>
+                </ul>
             </section>
         </main>
     </div>
@@ -35,14 +47,8 @@
 <script>
     import VueNavigator from "@/components/Navigator.vue";
     export default {
-        data: () => ({}),
         components: {
             VueNavigator
-        },
-        methods: {
-            open(url) {
-                location.href = url
-            }
         }
     };
 </script>
@@ -58,9 +64,14 @@
 
     main {
         display: inline-block;
-        text-align: center;
+        text-align: left;
         width: 100%;
+        padding: 0px 40px;
+        box-sizing: border-box;
         margin-bottom: 50px;
+        font-family: verdana;
+        margin-right: auto;
+        margin-left: auto;
     }
 
     header {
@@ -70,77 +81,26 @@
         padding-bottom: 10px;
     }
 
-    p {
-        font-size: 20px;
-        margin-top: 50px;
-        margin-bottom: 50px;
-        color: #7a7a7aff;
-    }
-
-    button.higlighted {
-        color: #fff;
-        background-color: #74AE86;
-    }
-
-    button.higlighted:hover {
-        background-color: #8cab96ff;
-    }
-
     h1 {
         font-size: 60px;
-        margin-top: 5px;
+        margin-top: 50px;
         margin-bottom: 30px;
-        color: #242c36ff;
     }
 
-    em {
-        font-style: normal;
-        color: #74AE86;
-        background: linear-gradient(45deg, #394657 0%, #74AE86 100%);
-        background-clip: text;
-        text-fill-color: transparent;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        -moz-background-clip: text;
-        -moz-text-fill-color: transparent;
+    h2 {
+        font-size: 30px;
+        margin-top: 100px;
+        text-align: left;
     }
 
-    section button {
-        border: none;
-        padding-top: 10px;
-        padding-right: 15px;
-        padding-bottom: 10px;
-        padding-left: 15px;
-        border-top-left-radius: 8px;
-        border-top-right-radius: 8px;
-        border-bottom-left-radius: 8px;
-        border-bottom-right-radius: 8px;
-        font-size: 17px;
-        margin-right: 20px;
-        cursor: pointer;
-        color: #072c38ff;
-        transition: .5s ease background;
+    ul {
+        padding-left: 18px;
+        display: inline-block;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 
-    section button:last-child {
-        margin-right: 0px;
-    }
-
-    section button:hover {
-        background-color: #e6e6e6ff;
-    }
-
-    .logo {
-        background-image: url(@/assets/vueplayground-logo.png);
-    }
-
-    .screenshot {
-        background-image: url(@/assets/screenshot.png);
-    }
-
-    @media only screen and (max-width: 600px) {
-        .logo {
-            left: 0px;
-        }
+    li {
+        padding-bottom: 5px;
     }
 </style>
