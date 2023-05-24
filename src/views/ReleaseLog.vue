@@ -37,6 +37,9 @@
                         Feature - Text shadow controller
                     </li>
                     <li>
+                        Feature - Keyframe timeline view
+                    </li>
+                    <li>
                         Bugfix - Fix file overwrite when switching between files
                     </li>
                 </ul>
