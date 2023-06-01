@@ -16,7 +16,7 @@
             <section style="text-align:center">
                 <button @click="$router.push('/features')">
                     Features
-                </button> <button @click="open('https://vueplay.app')" class="higlighted">
+                </button> <button @click="open('https://www.vueplay.com')" class="higlighted">
                     Get Started ⇾
                 </button>
             </section>

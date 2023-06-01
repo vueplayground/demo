@@ -52,7 +52,7 @@
         <main style="text-align:center;width:100%;margin-bottom:50px">
             <section><button @click="$router.push('/pricing')">
                     Pricing
-                </button><button @click="open('https://vueplay.app')" class="higlighted">
+                </button><button @click="open('https://www.vueplay.com')" class="higlighted">
                     Get Started ⇾
                 </button></section>
         </main>
