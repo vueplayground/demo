@@ -9,6 +9,43 @@
         <main>
             <section style="max-width:700px;margin:auto">
                 <h3>
+                    12.06.2023 - Realease 1.0.1
+                </h3>
+                <ul>
+                    <li>
+                        Design - Improved navigation selector
+                    </li>
+                    <li>
+                        Design - Improved style controller navigation
+                    </li>
+                    <li>
+                        Feature - Server boost
+                    </li>
+                    <li>
+                        Feature - Speed optimization
+                    </li>
+                    <li>
+                        Feature - Tailwind style controller
+                    </li>
+                    <li>
+                        Feature - Copy (keyboard shorcut supported)
+                    </li>
+                    <li>
+                        Feature - Paste (keyboard shorcut supported)
+                    </li>
+                    <li>
+                        Feature - Keyboard shorcut supported for delete
+                    </li>
+                    <li>
+                        Feature - Keyboard shorcut supported for undo & redo
+                    </li>
+                    <li>
+                        Feature - Improved context menu
+                    </li>
+                </ul>
+            </section>
+            <section style="max-width:700px;margin:auto">
+                <h3>
                     22.05.2023 - Realease 1.0.0
                 </h3>
                 <ul>
