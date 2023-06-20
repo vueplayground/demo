@@ -6,12 +6,31 @@
                 Release Log
             </h1>
         </header>
-        <main>
+        <main class="">
+            <section style="max-width:700px;margin:auto">
+                <h3>
+                    20.06.2023 - Realease 1.0.2
+                </h3>
+                <ul class="">
+                    <li>
+                        Design - Progress bar on save / pull / push
+                    </li>
+                    <li>
+                        Enhancement - Improved tailwind controller
+                    </li>
+                    <li style="height:29px">
+                        Enhancement - Simplified GitHub Pages deployment
+                    </li>
+                    <li>
+                        Feature - Keyboard element navigation
+                    </li>
+                </ul>
+            </section>
             <section style="max-width:700px;margin:auto">
                 <h3>
                     12.06.2023 - Realease 1.0.1
                 </h3>
-                <ul>
+                <ul class="">
                     <li>
                         Design - Improved navigation selector
                     </li>
@@ -139,7 +158,7 @@
     }
 
     h3 {
-        text-shadow: 1px 2px 3px #d9d9d9ff;
+        font-weight: bold;
     }
 
     p {

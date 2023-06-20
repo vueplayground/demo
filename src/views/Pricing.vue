@@ -107,6 +107,7 @@
         cursor: pointer;
         color: #072c38ff;
         transition: .5s ease background;
+        background-color: rgb(235, 235, 235);
     }
 
     section button:last-child {
