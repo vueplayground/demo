@@ -9,7 +9,7 @@
         <main class="">
             <section style="max-width:700px;margin:auto">
                 <h3>
-                    20.06.2023 - Realease 1.0.2
+                    20.06.2023 - Release 1.0.2
                 </h3>
                 <ul class="">
                     <li>
@@ -28,7 +28,7 @@
             </section>
             <section style="max-width:700px;margin:auto">
                 <h3>
-                    12.06.2023 - Realease 1.0.1
+                    12.06.2023 - Release 1.0.1
                 </h3>
                 <ul class="">
                     <li>
@@ -65,7 +65,7 @@
             </section>
             <section style="max-width:700px;margin:auto">
                 <h3>
-                    22.05.2023 - Realease 1.0.0
+                    22.05.2023 - Release 1.0.0
                 </h3>
                 <ul>
                     <li>
