@@ -24,6 +24,9 @@
                     <li>
                         Feature - Keyboard element navigation
                     </li>
+                    <li>
+                        Feature - Breakpoint toggles
+                    </li>
                 </ul>
             </section>
             <section style="max-width:700px;margin:auto">
