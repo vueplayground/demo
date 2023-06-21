@@ -1,6 +1,7 @@
 <template>
     <nav>
-        <div style="height:calc(100% - 10px);width:240px;float:left;background-size:contain;background-repeat:no-repeat;margin-top:5px;margin-left:10px;cursor:pointer" @click="$router.push('/')" class="logo"></div><button @click="$router.push('/')" :class="{active: route === '/'}">
+        <div style="height:29px;width:240px;background-size:contain;background-repeat:no-repeat;margin-top:5px;margin-left:10px;cursor:pointer;float:left" @click="$router.push('/')" class="sm:inline hidden logo">
+        </div><button @click="$router.push('/')" :class="{active: route === '/'}" class="">
             About
         </button><button @click="$router.push('/features')" :class="{active: route === '/features'}">
             Features
