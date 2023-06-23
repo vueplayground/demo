@@ -1,7 +1,7 @@
 <template>
-    <footer style="height:202px;width:100%;text-align:center;box-sizing:border-box;font-size:23px;display:inline-block;padding-top:27px;background-image:linear-gradient(204deg, #f0dfe20d 34%, #e1ebe8ff 39%, #f0f5faff 54%);background-color:#edf7f4ff">
+    <footer style="height:202px;width:100%;text-align:center;box-sizing:border-box;font-size:23px;display:inline-block;padding-top:27px;background-image:linear-gradient(204deg, #f0dfe20d 14%, #e1ebe8ff 19%, #f0f5faff 34%);background-color:#edf7f4ff">
 
-        <p style="color:#2c4966ff;font-size:16px;margin-bottom:25px;margin-top:30px">
+        <p style="font-size:16px;margin-bottom:25px;margin-top:30px">
             © All rights reserved - Siglar Development AS {{
 new Date().getUTCFullYear()
 }}
@@ -24,11 +24,11 @@ new Date().getUTCFullYear()
 <style scoped>
     footer {
         font-family: verdana;
-        color: #2c4966ff;
+        color: #5c6e80ff;
     }
 
     a {
-        color: #2c4966ff;
+        color: #5c6e80ff;
         text-decoration: none;
         font-size: 16px;
     }
