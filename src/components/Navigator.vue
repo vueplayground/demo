@@ -1,6 +1,6 @@
 <template>
-    <nav>
-        <div style="height:29px;width:240px;background-size:contain;background-repeat:no-repeat;margin-top:5px;margin-left:10px;cursor:pointer;float:left" @click="$router.push('/')" class="sm:inline hidden logo">
+    <nav style="background-image:linear-gradient(270deg, #fff3edff, #b2d4c9ff)">
+        <div style="height:34px;width:240px;background-size:contain;background-repeat:no-repeat;margin-top:7px;margin-left:10px;cursor:pointer;float:left" @click="$router.push('/')" class="sm:inline hidden logo">
         </div><button @click="$router.push('/')" :class="{active: route === '/'}" class="">
             About
         </button><button @click="$router.push('/features')" :class="{active: route === '/features'}">
@@ -32,7 +32,7 @@
         display: block;
         text-align: right;
         width: 100%;
-        height: 40px;
+        height: 50px;
         border-bottom-width: 1px;
         border-style: solid;
         border-left-width: 0px;
@@ -70,11 +70,5 @@
 
     .logo {
         background-image: url(@/assets/vueplayground-logo-long.png);
-    }
-
-    @media only screen and (max-width: 600px) {
-        .logo {
-            display: none;
-        }
     }
 </style>
