@@ -1,5 +1,5 @@
 <template>
-    <nav style="background-image:linear-gradient(204deg, #00ffff0d 60%, #dff2ecff 79%)">
+    <nav style="background-image:linear-gradient(204deg, #f0dfe20d 54%, #e1ebe8ff 59%, #f0f5faff 74%);background-color:#edf7f4ff">
         <div style="height:34px;width:240px;background-size:contain;background-repeat:no-repeat;margin-top:7px;margin-left:10px;cursor:pointer;float:left" @click="$router.push('/')" class="sm:inline hidden logo">
         </div><button @click="$router.push('/')" :class="{active: route === '/'}" class="">
             About
