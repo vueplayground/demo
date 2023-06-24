@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="bg-slate-100">
         <VueNavigator />
         <header>
             <div style="background-size:contain;background-position:center;background-repeat:no-repeat;width:345px;height:125px;margin-right:auto;margin-left:auto;margin-top:70px;position:relative;left:30px;max-width:calc(100% - 100px)" class="logo">
