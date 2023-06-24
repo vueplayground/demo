@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="bg-slate-100">
         <VueNavigator />
         <header>
             <h1>
