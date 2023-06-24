@@ -14,9 +14,9 @@
                 <Pricing style="margin-bottom:50px;max-width:786px;text-align:left;margin-right:auto;margin-left:auto" />
             </section>
             <section style="text-align:center">
-                <button @click="$router.push('/features')">
+                <button @click="$router.push('/features')" class="transition-shadow hover:drop-shadow-lg drop-shadow">
                     Features
-                </button> <button @click="open('https://www.vueplay.com')" class="higlighted">
+                </button> <button @click="open('https://www.vueplay.com')" class="duration-300 transition hover:drop-shadow-lg drop-shadow higlighted">
                     Get Started ⇾
                 </button>
             </section>
