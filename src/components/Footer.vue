@@ -1,5 +1,5 @@
 <template>
-    <footer style="height:202px;width:100%;text-align:center;box-sizing:border-box;font-size:23px;display:inline-block;padding-top:27px;background-image:linear-gradient(204deg, #f0dfe20d 14%, #e1ebe8ff 19%, #f0f5faff 34%);background-color:#edf7f4ff">
+    <footer style="height:202px;width:100%;text-align:center;box-sizing:border-box;font-size:23px;display:inline-block;padding-top:27px;background-image:linear-gradient(204deg, #f0dfe20d 14%, #e1ebe8ff 19%, #f0f5faff 34%);background-color:#edf7f4ff" class="">
 
         <p style="font-size:16px;margin-bottom:25px;margin-top:30px">
             © All rights reserved - Siglar Development AS {{
@@ -24,16 +24,16 @@ new Date().getUTCFullYear()
 <style scoped>
     footer {
         font-family: verdana;
-        color: #5c6e80ff;
+        color: #8598abff;
     }
 
     a {
-        color: #5c6e80ff;
+        color: #8598abff;
         text-decoration: none;
         font-size: 16px;
     }
 
     a:hover {
-        color: #000000ff;
+        color: #607991ff;
     }
 </style>
