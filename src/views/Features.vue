@@ -46,13 +46,13 @@
                 </div>
                 <div class="p-6 inline-block shadow-slate-300 shadow rounded bg-white">
                     <div class="bg-blue-200 w-12 h-12 rounded pt-2"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-8 h-8 fill-blue-500 m-auto">
-                            <path d="M21.721 12.752a9.711 9.711 0 00-.945-5.003 12.754 12.754 0 01-4.339 2.708 18.991 18.991 0 01-.214 4.772 17.165 17.165 0 005.498-2.477zM14.634 15.55a17.324 17.324 0 00.332-4.647c-.952.227-1.945.347-2.966.347-1.021 0-2.014-.12-2.966-.347a17.515 17.515 0 00.332 4.647 17.385 17.385 0 005.268 0zM9.772 17.119a18.963 18.963 0 004.456 0A17.182 17.182 0 0112 21.724a17.18 17.18 0 01-2.228-4.605zM7.777 15.23a18.87 18.87 0 01-.214-4.774 12.753 12.753 0 01-4.34-2.708 9.711 9.711 0 00-.944 5.004 17.165 17.165 0 005.498 2.477zM21.356 14.752a9.765 9.765 0 01-7.478 6.817 18.64 18.64 0 001.988-4.718 18.627 18.627 0 005.49-2.098zM2.644 14.752c1.682.971 3.53 1.688 5.49 2.099a18.64 18.64 0 001.988 4.718 9.765 9.765 0 01-7.478-6.816zM13.878 2.43a9.755 9.755 0 016.116 3.986 11.267 11.267 0 01-3.746 2.504 18.63 18.63 0 00-2.37-6.49zM12 2.276a17.152 17.152 0 012.805 7.121c-.897.23-1.837.353-2.805.353-.968 0-1.908-.122-2.805-.353A17.151 17.151 0 0112 2.276zM10.122 2.43a18.629 18.629 0 00-2.37 6.49 11.266 11.266 0 01-3.746-2.504 9.754 9.754 0 016.116-3.985z" />
+                            <path fill-rule="evenodd" d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75H12a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z" clip-rule="evenodd" />
                         </svg> </div>
                     <h3 class="mt-4 mb-3 font-semibold text-2xl text-left">
-                        Github Pages
+                        Google Fonts
                     </h3>
                     <p class="text-slate-500 text-left">
-                        Deploy your website using GitHub pages with a few simple clicks.
+                        Choose between 1500+ open source fonts from Google.
                     </p>
                 </div>
                 <div class="p-6 inline-block shadow-slate-300 shadow rounded bg-white">
@@ -64,6 +64,17 @@
                     </h3>
                     <p class="text-slate-500 text-left">
                         Built in code editor for high flexibility.
+                    </p>
+                </div>
+                <div class="p-6 inline-block shadow-slate-300 shadow rounded bg-white">
+                    <div class="bg-blue-200 w-12 h-12 rounded pt-2"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-8 h-8 fill-blue-500 m-auto">
+                            <path d="M21.721 12.752a9.711 9.711 0 00-.945-5.003 12.754 12.754 0 01-4.339 2.708 18.991 18.991 0 01-.214 4.772 17.165 17.165 0 005.498-2.477zM14.634 15.55a17.324 17.324 0 00.332-4.647c-.952.227-1.945.347-2.966.347-1.021 0-2.014-.12-2.966-.347a17.515 17.515 0 00.332 4.647 17.385 17.385 0 005.268 0zM9.772 17.119a18.963 18.963 0 004.456 0A17.182 17.182 0 0112 21.724a17.18 17.18 0 01-2.228-4.605zM7.777 15.23a18.87 18.87 0 01-.214-4.774 12.753 12.753 0 01-4.34-2.708 9.711 9.711 0 00-.944 5.004 17.165 17.165 0 005.498 2.477zM21.356 14.752a9.765 9.765 0 01-7.478 6.817 18.64 18.64 0 001.988-4.718 18.627 18.627 0 005.49-2.098zM2.644 14.752c1.682.971 3.53 1.688 5.49 2.099a18.64 18.64 0 001.988 4.718 9.765 9.765 0 01-7.478-6.816zM13.878 2.43a9.755 9.755 0 016.116 3.986 11.267 11.267 0 01-3.746 2.504 18.63 18.63 0 00-2.37-6.49zM12 2.276a17.152 17.152 0 012.805 7.121c-.897.23-1.837.353-2.805.353-.968 0-1.908-.122-2.805-.353A17.151 17.151 0 0112 2.276zM10.122 2.43a18.629 18.629 0 00-2.37 6.49 11.266 11.266 0 01-3.746-2.504 9.754 9.754 0 016.116-3.985z" />
+                        </svg> </div>
+                    <h3 class="mt-4 mb-3 font-semibold text-2xl text-left">
+                        Github Pages
+                    </h3>
+                    <p class="text-slate-500 text-left">
+                        Deploy your website using GitHub pages with a few simple clicks.
                     </p>
                 </div>
                 <div class="p-6 inline-block shadow-slate-300 shadow rounded bg-white">
@@ -82,7 +93,7 @@
                             <path d="M18 1.5c2.9 0 5.25 2.35 5.25 5.25v3.75a.75.75 0 01-1.5 0V6.75a3.75 3.75 0 10-7.5 0v3a3 3 0 013 3v6.75a3 3 0 01-3 3H3.75a3 3 0 01-3-3v-6.75a3 3 0 013-3h9v-3c0-2.9 2.35-5.25 5.25-5.25z" />
                         </svg> </div>
                     <h3 class="mt-4 mb-3 font-semibold text-2xl text-left">
-                        Export Source Code
+                        Unlocked code
                     </h3>
                     <p class="text-slate-500 text-left">
                         You own your files. Connect to GitHub and use without limitations.
@@ -97,17 +108,6 @@
                     </h3>
                     <p class="text-slate-500 text-left">
                         Get your distribution-ready package and deploy anywhere.
-                    </p>
-                </div>
-                <div class="p-6 inline-block shadow-slate-300 shadow rounded bg-white">
-                    <div class="bg-blue-200 w-12 h-12 rounded pt-2"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-8 h-8 fill-blue-500 m-auto">
-                            <path fill-rule="evenodd" d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75H12a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z" clip-rule="evenodd" />
-                        </svg> </div>
-                    <h3 class="mt-4 mb-3 font-semibold text-2xl text-left">
-                        Google Fonts
-                    </h3>
-                    <p class="text-slate-500 text-left">
-                        Choose between 1500+ open source fonts from Google.
                     </p>
                 </div>
             </section>
