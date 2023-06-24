@@ -10,7 +10,7 @@
             </p>
         </header>
         <main>
-            <section style="text-align:left">
+            <section style="text-align:left" class="drop-shadow">
                 <Pricing style="margin-bottom:50px;max-width:786px;text-align:left;margin-right:auto;margin-left:auto" />
             </section>
             <section style="text-align:center">

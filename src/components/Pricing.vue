@@ -1,6 +1,6 @@
 <template>
     <div class="comparison">
-        <div class="free" @click="redirect('https://vueplay.app')">
+        <div class="shadow-lg free drop-shadow" @click="redirect('https://vueplay.app')">
             <h2>Free</h2>
             <p>
                 Try out the playground with only a few limitations.
@@ -19,7 +19,7 @@
                 <div>Build distribution</div>
             </div>
         </div>
-        <div class="early-bird" @click="redirect('https://vueplay.app')" style="background-color:#e34343">
+        <div class="shadow-slate-300 shadow-lg early-bird drop-shadow" @click="redirect('https://vueplay.app')" style="background-color:#e3447cff">
             <h2 style="color:#ffffffff">
 
 
