@@ -13,13 +13,13 @@
             <section class="p-6 xl:grid-cols-4 lg:grid-cols-3 sm:grid-cols-2 container m-auto grid gap-6">
                 <div class="p-6 inline-block shadow-slate-300 shadow rounded bg-white">
                     <div class="bg-blue-200 w-12 h-12 rounded pt-2"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-8 h-8 fill-blue-500 m-auto">
-                            <path fill-rule="evenodd" d="M3 6a3 3 0 013-3h12a3 3 0 013 3v12a3 3 0 01-3 3H6a3 3 0 01-3-3V6zm14.25 6a.75.75 0 01-.22.53l-2.25 2.25a.75.75 0 11-1.06-1.06L15.44 12l-1.72-1.72a.75.75 0 111.06-1.06l2.25 2.25c.141.14.22.331.22.53zm-10.28-.53a.75.75 0 000 1.06l2.25 2.25a.75.75 0 101.06-1.06L8.56 12l1.72-1.72a.75.75 0 10-1.06-1.06l-2.25 2.25z" clip-rule="evenodd" />
+                            <path d="M12.378 1.602a.75.75 0 00-.756 0L3 6.632l9 5.25 9-5.25-8.622-5.03zM21.75 7.93l-9 5.25v9l8.628-5.032a.75.75 0 00.372-.648V7.93zM11.25 22.18v-9l-9-5.25v8.57a.75.75 0 00.372.648l8.628 5.033z" />
                         </svg> </div>
                     <h3 class="mt-4 mb-3 font-semibold text-2xl text-left">
-                        Code editor
+                        Drag and drop
                     </h3>
                     <p class="text-slate-500 text-left">
-                        Built in code editor for high flexibility.
+                        Drag and drop elements using the playground and layers view.
                     </p>
                 </div>
                 <div class="p-6 inline-block shadow-slate-300 shadow rounded bg-white">
@@ -46,13 +46,13 @@
                 </div>
                 <div class="p-6 inline-block shadow-slate-300 shadow rounded bg-white">
                     <div class="bg-blue-200 w-12 h-12 rounded pt-2"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-8 h-8 fill-blue-500 m-auto">
-                            <path d="M12.378 1.602a.75.75 0 00-.756 0L3 6.632l9 5.25 9-5.25-8.622-5.03zM21.75 7.93l-9 5.25v9l8.628-5.032a.75.75 0 00.372-.648V7.93zM11.25 22.18v-9l-9-5.25v8.57a.75.75 0 00.372.648l8.628 5.033z" />
+                            <path fill-rule="evenodd" d="M3 6a3 3 0 013-3h12a3 3 0 013 3v12a3 3 0 01-3 3H6a3 3 0 01-3-3V6zm14.25 6a.75.75 0 01-.22.53l-2.25 2.25a.75.75 0 11-1.06-1.06L15.44 12l-1.72-1.72a.75.75 0 111.06-1.06l2.25 2.25c.141.14.22.331.22.53zm-10.28-.53a.75.75 0 000 1.06l2.25 2.25a.75.75 0 101.06-1.06L8.56 12l1.72-1.72a.75.75 0 10-1.06-1.06l-2.25 2.25z" clip-rule="evenodd" />
                         </svg> </div>
                     <h3 class="mt-4 mb-3 font-semibold text-2xl text-left">
-                        Drag and drop
+                        Code editor
                     </h3>
                     <p class="text-slate-500 text-left">
-                        Drag and drop elements using the playground and layers view.
+                        Built in code editor for high flexibility.
                     </p>
                 </div>
                 <div class="p-6 inline-block shadow-slate-300 shadow rounded bg-white">
@@ -74,7 +74,7 @@
                         Export build
                     </h3>
                     <p class="text-slate-500 text-left">
-                        Get your distribution ready package and deploy anywhere.
+                        Get your distribution-ready package and deploy anywhere.
                     </p>
                 </div>
             </section>
@@ -82,9 +82,6 @@
                 <div class="">
                 </div>
                 <div class="feature-list" @click="open('https://vueplay.app')" style="cursor:pointer">
-                    <div>
-                        Export project
-                    </div>
                     <div>
                         File explorer
                     </div>
