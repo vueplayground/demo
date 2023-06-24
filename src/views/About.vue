@@ -15,11 +15,11 @@
             </p>
         </header>
         <main style="width:100%">
-            <section style="width:100%"><button @click="$router.push('/features')">
+            <section style="width:100%"><button @click="$router.push('/features')" class="transition-shadow hover:drop-shadow-lg drop-shadow">
                     Features
-                </button> <button @click="$router.push('/pricing')">
+                </button> <button @click="$router.push('/pricing')" class="transition-shadow hover:drop-shadow-lg drop-shadow">
                     Pricing
-                </button><button @click="open('https://www.vueplay.com')" class="higlighted">
+                </button><button @click="open('https://www.vueplay.com')" class="duration-300 transition hover:drop-shadow-lg drop-shadow higlighted">
                     Get Started ⇾
                 </button> </section>
             <section>
