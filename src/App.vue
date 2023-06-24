@@ -1,6 +1,6 @@
 <template>
     <router-view />
-    <Footer />
+    <Footer class="border-t-2" />
 </template>
 <script>
     import Footer from "@/components/Footer.vue";
