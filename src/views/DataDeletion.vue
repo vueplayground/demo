@@ -8,7 +8,7 @@
             <p>Updated 28.04.2023</p>
         </header>
         <main>
-            <section style="max-width:700px;margin:auto">
+            <section style="margin:auto" class="max-w-2xl container">
                 <p>
                     Request deletion by sending us an email. You should contact us using the same email as your registered
                     account. Later on it will be possible to delete your account with all connected data in the app profile
