@@ -45,6 +45,17 @@
                     </p>
                 </div>
                 <div class="p-6 inline-block shadow-slate-300 shadow rounded bg-white">
+                    <div class="bg-blue-200 w-12 h-12 rounded pt-2"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-8 h-8 fill-blue-500 m-auto" fill="currentColor">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.036c-2.667 0-4.333 1.325-5 3.976 1-1.325 2.167-1.822 3.5-1.491.761.189 1.305.738 1.906 1.345C13.387 10.855 14.522 12 17 12c2.667 0 4.333-1.325 5-3.976-1 1.325-2.166 1.822-3.5 1.491-.761-.189-1.305-.738-1.907-1.345-.98-.99-2.114-2.134-4.593-2.134zM7 12c-2.667 0-4.333 1.325-5 3.976 1-1.326 2.167-1.822 3.5-1.491.761.189 1.305.738 1.907 1.345.98.989 2.115 2.134 4.594 2.134 2.667 0 4.333-1.325 5-3.976-1 1.325-2.167 1.822-3.5 1.491-.761-.189-1.305-.738-1.906-1.345C10.613 13.145 9.478 12 7 12z" />
+                        </svg> </div>
+                    <h3 class="mt-4 mb-3 font-semibold text-2xl text-left">
+                        Tailwind CSS
+                    </h3>
+                    <p class="text-slate-500 text-left">
+                        Design using the popular css framework with beautiful class presets
+                    </p>
+                </div>
+                <div class="p-6 inline-block shadow-slate-300 shadow rounded bg-white">
                     <div class="bg-blue-200 w-12 h-12 rounded pt-2"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-8 h-8 fill-blue-500 m-auto">
                             <path fill-rule="evenodd" d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75H12a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z" clip-rule="evenodd" />
                         </svg> </div>
@@ -108,17 +119,6 @@
                     </h3>
                     <p class="text-slate-500 text-left">
                         Get your distribution-ready package and deploy anywhere.
-                    </p>
-                </div>
-                <div class="p-6 inline-block shadow-slate-300 shadow rounded bg-white">
-                    <div class="bg-blue-200 w-12 h-12 rounded pt-2"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-8 h-8 fill-blue-500 m-auto" fill="currentColor">
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.036c-2.667 0-4.333 1.325-5 3.976 1-1.325 2.167-1.822 3.5-1.491.761.189 1.305.738 1.906 1.345C13.387 10.855 14.522 12 17 12c2.667 0 4.333-1.325 5-3.976-1 1.325-2.166 1.822-3.5 1.491-.761-.189-1.305-.738-1.907-1.345-.98-.99-2.114-2.134-4.593-2.134zM7 12c-2.667 0-4.333 1.325-5 3.976 1-1.326 2.167-1.822 3.5-1.491.761.189 1.305.738 1.907 1.345.98.989 2.115 2.134 4.594 2.134 2.667 0 4.333-1.325 5-3.976-1 1.325-2.167 1.822-3.5 1.491-.761-.189-1.305-.738-1.906-1.345C10.613 13.145 9.478 12 7 12z" />
-                        </svg> </div>
-                    <h3 class="mt-4 mb-3 font-semibold text-2xl text-left">
-                        Tailwind CSS
-                    </h3>
-                    <p class="text-slate-500 text-left">
-                        Design using the popular css framework with beautiful class presets
                     </p>
                 </div>
             </section>
