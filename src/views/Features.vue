@@ -52,7 +52,7 @@
                         Tailwind CSS
                     </h3>
                     <p class="text-slate-500 text-left">
-                        Design using the popular css framework with beautiful class presets
+                        Design using the popular css framework with beautiful class presets.
                     </p>
                 </div>
                 <div class="p-6 inline-block shadow-slate-300 shadow rounded bg-white">
