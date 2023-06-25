@@ -29,7 +29,7 @@
                     </li>
                 </ul>
             </section>
-            <section style="max-width:700px;margin:auto">
+            <section>
                 <h3>
                     12.06.2023 - Release 1.0.1
                 </h3>
@@ -66,7 +66,7 @@
                     </li>
                 </ul>
             </section>
-            <section style="max-width:700px;margin:auto">
+            <section>
                 <h3>
                     22.05.2023 - Release 1.0.0
                 </h3>
@@ -103,7 +103,7 @@
                     </li>
                 </ul>
             </section>
-            <section style="max-width:700px;margin:auto">
+            <section>
                 <h3>
                     02.05.2023 - First launch
                 </h3>
