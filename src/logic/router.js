@@ -16,6 +16,10 @@ const routes = [{
         component: () => import('@/views/Pricing.vue')
     },
     {
+        path: '/documentation',
+        component: () => import('@/views/Documentation.vue')
+    },
+    {
         path: '/terms-of-service',
         component: () => import('@/views/TermsOfService.vue')
     },
@@ -37,7 +41,9 @@ const router = createRouter({
     history: createWebHistory("/"),
     routes,
     scrollBehavior(to, from, savedPosition) {
-        return { top: 0 }
+        return {
+            top: 0
+        }
     }
 })
 
