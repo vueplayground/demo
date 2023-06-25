@@ -8,7 +8,7 @@
             <p>Updated 28.04.2023</p>
         </header>
         <main>
-            <section style="max-width:700px;margin:auto">
+            <section style="margin:auto" class="max-w-2xl container">
                 <h2>General Terms</h2>
                 <p>By accessing or placing an order with Vue Playground, you confirm that you are in agreement with and bound by the terms of service contained in the Terms & Conditions outlined below. These terms apply to the entire website and any email or other type of communication between you and Vue Playground.</p>
                 <p>Under no circumstances shall Vue Playground team be liable for any direct, indirect, special, incidental or consequential damages, including, but not limited to, loss of data or profit, arising out of the use, or the inability to use, the materials on this site, even if Vue Playground team or an authorized representative has been advised of the possibility of such damages. If your use of materials from this site results in the need for servicing, repair or correction of equipment or data, you assume any costs thereof.</p>
