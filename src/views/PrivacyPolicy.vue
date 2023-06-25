@@ -8,7 +8,7 @@
             <p>Updated 28.04.2023</p>
         </header>
         <main>
-            <section style="margin:auto" class="container">
+            <section style="margin:auto" class="max-w-xl container">
                 <p>Vue Playground (“we,” “our,” or “us”) is committed to protecting your privacy. This Privacy Policy explains how your personal information is collected, used, and disclosed by Vue Playground.</p>
                 <p>
                     This Privacy Policy applies to our website, and its associated subdomains (collectively, our “Service”) alongside our application, Vue Playground.

@@ -7,7 +7,7 @@
             </h1>
         </header>
         <main class="p-6 m-auto max-w-xl container">
-            <section style="max-width:700px;margin:auto">
+            <section>
                 <h3>
                     20.06.2023 - Release 1.0.2
                 </h3>
