@@ -6,7 +6,7 @@
                 Features
             </h1>
             <p style="margin-right:auto;margin-left:auto;max-width:calc(100% - 40px);width:700px">
-                Vue Playground is a full drag & drop designer for building vue components and applications.
+                Vue Playground is a full drag & drop designer for building vue components, websites and web applications.
             </p>
         </header>
         <main style="text-align:center;width:100%;margin-bottom:50px">
@@ -20,6 +20,18 @@
                     </h3>
                     <p class="text-slate-500 text-left">
                         Drag and drop elements using the playground and layers view.
+                    </p>
+                </div>
+                <div class="p-6 inline-block shadow-slate-300 shadow rounded bg-white">
+                    <div class="bg-blue-200 w-12 h-12 rounded pt-2"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-8 h-8 fill-blue-500 m-auto">
+                            <path fill-rule="evenodd" d="M9.315 7.584C12.195 3.883 16.695 1.5 21.75 1.5a.75.75 0 01.75.75c0 5.056-2.383 9.555-6.084 12.436A6.75 6.75 0 019.75 22.5a.75.75 0 01-.75-.75v-4.131A15.838 15.838 0 016.382 15H2.25a.75.75 0 01-.75-.75 6.75 6.75 0 017.815-6.666zM15 6.75a2.25 2.25 0 100 4.5 2.25 2.25 0 000-4.5z" clip-rule="evenodd" />
+                            <path d="M5.26 17.242a.75.75 0 10-.897-1.203 5.243 5.243 0 00-2.05 5.022.75.75 0 00.625.627 5.243 5.243 0 005.022-2.051.75.75 0 10-1.202-.897 3.744 3.744 0 01-3.008 1.51c0-1.23.592-2.323 1.51-3.008z" />
+                        </svg> </div>
+                    <h3 class="mt-4 mb-3 font-semibold text-2xl text-left">
+                        Low code
+                    </h3>
+                    <p class="text-slate-500 text-left">
+                        No code is needed for templating, but could still be useful for handling events.
                     </p>
                 </div>
                 <div class="p-6 inline-block shadow-slate-300 shadow rounded bg-white">
