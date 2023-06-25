@@ -11,14 +11,14 @@
                 <h3>
                     20.06.2023 - Release 1.0.2
                 </h3>
-                <ul class="indent-6 list-inside list-disc">
+                <ul class="list-inside indent-6 list-disc">
                     <li>
                         Design - Progress bar on save / pull / push
                     </li>
                     <li>
                         Enhancement - Improved tailwind controller
                     </li>
-                    <li style="height:29px">
+                    <li>
                         Enhancement - Simplified GitHub Pages deployment
                     </li>
                     <li>
