@@ -19,7 +19,7 @@
                             Shortcuts
                         </li>
                     </ul>
-                </div><router-view class="grow bg-green-200 h-full overflow-auto">
+                </div><router-view class="grow h-full overflow-auto">
                 </router-view>
             </div>
         </main>
