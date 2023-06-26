@@ -2,7 +2,7 @@
     <div class="bg-slate-100">
         <VueNavigator class="z-10" />
         <header>
-            <div style="background-size:contain;background-position:center;background-repeat:no-repeat;width:300px;height:125px;margin-right:auto;margin-left:auto;margin-top:70px;position:relative;left:30px;max-width:calc(100% - 100px)" class="logo">
+            <div style="background-size:contain;background-position:center;background-repeat:no-repeat;width:300px;height:125px;margin-right:auto;margin-left:auto;margin-top:40px;position:relative;left:30px;max-width:calc(100% - 100px)" class="logo">
             </div>
             <h1 style="text-shadow:0px 0px">
                 <em style="margin-top:28px">
@@ -23,7 +23,7 @@
                     Get Started ⇾
                 </button> </section>
             <section>
-                <div style="background-size:contain;background-position:center;background-repeat:no-repeat;margin-right:auto;margin-left:auto;margin-top:70px;position:relative;margin-bottom:50px;max-width:700px;aspect-ratio:1/.389;box-sizing:border-box" class="shadow-slate-200 shadow-xl screenshot">
+                <div style="background-size:contain;background-position:center;background-repeat:no-repeat;margin-right:auto;margin-left:auto;margin-top:70px;position:relative;margin-bottom:50px;max-width:calc(100% - 40px);aspect-ratio:1/.389;box-sizing:border-box;width:700px" class="shadow-slate-200 shadow-xl screenshot">
                 </div>
                 <section style="width:100%">
                     <a href="https://www.producthunt.com/posts/vue-playground?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-vue&#0045;playground" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=392346&theme=light" alt="Vue&#0032;Playground - Visual&#0032;drag&#0032;and&#0032;drop&#0032;builder&#0032;for&#0032;vue&#0032;components&#0032;and&#0032;apps | Product Hunt" style="width: 250px; height: 54px;;margin:auto" width="250" height="54" /></a>
