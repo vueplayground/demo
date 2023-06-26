@@ -5,7 +5,7 @@
             About
         </button><button @click="$router.push('/features')" :class="{active: route === '/features'}">
             Features
-        </button><button @click="$router.push('/documentation')" :class="{active: route === '/features'}">
+        </button><button @click="$router.push('/documentation')" :class="{active: route.includes('/documentation')}">
             Docs
         </button><button @click="$router.push('/pricing')" :class="{active: route === '/pricing'}">
             Pricing
