@@ -1,7 +1,7 @@
 <template>
-    <section>
+    <section class="p-6">
         <article>
-            <h1>
+            <h1 class="mb-6 text-4xl">
                 Shortcuts
             </h1>
             <p>Article paragraph</p>
