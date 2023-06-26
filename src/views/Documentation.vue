@@ -2,10 +2,12 @@
     <div class="bg-slate-100 flex flex-col h-screen">
         <VueNavigator class="flex" />
         <main style="width:100%" class="overflow-auto flex-1 h-full">
-            <div><label class="cursor-pointer inline-flex items-center p-2 mt-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" for="toggle">
+            <div class="relative h-full"><label class="fixed z-20 cursor-pointer inline-flex items-center p-2 mt-2 ml-3 text-sm text-gray-500 checked:text-white rounded-lg md:hidden" for="toggle">
                     <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                         <path clip-rule="evenodd" fill-rule="evenodd" d="M2 4.75A.75.75 0 012.75 4h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 4.75zm0 10.5a.75.75 0 01.75-.75h7.5a.75.75 0 010 1.5h-7.5a.75.75 0 01-.75-.75zM2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10z"></path>
-                    </svg> </label><input class="hidden" type="checkbox" id="toggle" /></div>
+                    </svg> </label><input class="peer hidden" type="checkbox" id="toggle" />
+                <div class="w-80 max-w-full z-10 bg-blue-300 peer-checked:bg-blue-500 h-full absolute top-0"></div>
+            </div>
         </main>
     </div>
 </template>
@@ -114,5 +116,9 @@
         background-repeat: no-repeat;
         background-size: auto 20px;
         padding: 5px 30px;
+    }
+
+    label:has(+input:checked) {
+        color: #ffffffff !important;
     }
 </style>
