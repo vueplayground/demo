@@ -1,6 +1,6 @@
 <template>
     <div class="bg-slate-100">
-        <VueNavigator />
+        <VueNavigator class="z-10" />
         <header>
             <h1>
                 Terms of Service

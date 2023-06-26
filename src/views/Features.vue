@@ -1,6 +1,6 @@
 <template v-for="i in 8">
     <div class="bg-slate-100">
-        <VueNavigator />
+        <VueNavigator class="z-10" />
         <header>
             <h1>
                 Features
