@@ -20,7 +20,7 @@ const routes = [{
     component: () => import('@/views/Documentation.vue'),
     children: [{
         path: '',
-        component: () => import('@/docs/GettingStarted.vue')
+        component: () => import('@/docs/Introduction.vue')
     },
     {
         path: 'shortcuts',
