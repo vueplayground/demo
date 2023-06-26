@@ -10,7 +10,7 @@
                 </em> <br />
                 Builder
             </h1>
-            <p>
+            <p style="width:calc(100% - 40px);margin:auto;margin-top:40px;margin-bottom:40px">
                 Create Vue Applications using a graphical designer
             </p>
         </header>
