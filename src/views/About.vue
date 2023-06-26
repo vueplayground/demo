@@ -2,7 +2,7 @@
     <div class="bg-slate-100">
         <VueNavigator class="z-10" />
         <header>
-            <div style="background-size:contain;background-position:center;background-repeat:no-repeat;width:300px;height:125px;margin-right:auto;margin-left:auto;margin-top:40px;position:relative;left:30px;max-width:calc(100% - 100px)" class="logo">
+            <div style="background-size:contain;background-position:center;background-repeat:no-repeat;width:300px;height:125px;margin-right:auto;margin-left:auto;margin-top:40px;position:relative;max-width:calc(100% - 100px)" class="logo">
             </div>
             <h1 style="text-shadow:0px 0px">
                 <em style="margin-top:28px">
