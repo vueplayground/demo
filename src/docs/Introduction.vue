@@ -1,5 +1,5 @@
 <template>
-    <section class="p-6 pt-16 md:pt-6 pb-40">
+    <section class="p-6 pt-20 md:pt-6 pb-40">
         <article>
             <h1 class="mb-6 text-4xl">
                 Introduction
