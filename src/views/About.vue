@@ -2,10 +2,10 @@
     <div class="bg-slate-100">
         <VueNavigator class="z-10" />
         <header>
-            <div style="background-size:contain;background-position:center;background-repeat:no-repeat;width:345px;height:125px;margin-right:auto;margin-left:auto;margin-top:70px;position:relative;left:30px;max-width:calc(100% - 100px)" class="logo">
+            <div style="background-size:contain;background-position:center;background-repeat:no-repeat;width:300px;height:125px;margin-right:auto;margin-left:auto;margin-top:70px;position:relative;left:30px;max-width:calc(100% - 100px)" class="logo">
             </div>
-            <h1>
-                <em>
+            <h1 style="text-shadow:0px 0px">
+                <em style="margin-top:28px">
                     Drag & Drop
                 </em> <br />
                 Builder
@@ -87,7 +87,7 @@
     }
 
     h1 {
-        font-size: 60px;
+        font-size: 45px;
         margin-top: 5px;
         margin-bottom: 30px;
         color: #242c36ff;

@@ -53,7 +53,7 @@
         padding-right: 12px;
         padding-left: 12px;
         cursor: pointer;
-        transition: .3s ease all;
+        transition: .3s ease color;
         color: #5c5c5cff;
     }
 

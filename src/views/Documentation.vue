@@ -7,15 +7,15 @@
                     <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                         <path clip-rule="evenodd" fill-rule="evenodd" d="M2 4.75A.75.75 0 012.75 4h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 4.75zm0 10.5a.75.75 0 01.75-.75h7.5a.75.75 0 010 1.5h-7.5a.75.75 0 01-.75-.75zM2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10z"></path>
                     </svg> </label><input class="peer hidden" type="checkbox" id="toggle" />
-                <div class="border-r border-slate-200 bg-slate-100 peer-checked:px-4 peer-checked:pt-16 peer-checked:pb-4 pt-16 md:p-4 duration-200 transition-all ease-in-out w-0 max-w-full z-30 peer-checked:w-80 md:w-80 h-full absolute md:relative top-0 overflow-auto">
+                <div class="pt-16 border-r border-slate-200 bg-slate-100 peer-checked:px-4 peer-checked:pt-16 peer-checked:pb-4 md:p-7 duration-200 transition-all ease-in-out w-0 max-w-full z-30 peer-checked:w-80 md:w-80 h-full absolute md:relative top-0 overflow-auto">
                     <h3 class="font-bold text-slate-800">
-                        Getting started
+                        Getting Started
                     </h3>
-                    <ul class="border-slate-200 space-y-1 pl-6 ml-2 mt-4 border-l-4">
-                        <li class="hover:text-slate-900 text-slate-700 cursor-pointer" @click="$router.push('/documentation')" :class="{'font-semibold': $route.path === '/documentation'}">
+                    <ul class="space-y-1 ml-2 mt-4 border-l border-slate-400">
+                        <li class="hover:text-slate-900 text-slate-700 cursor-pointer pl-6" @click="$router.push('/documentation')" :class="{'font-semibold': $route.path === '/documentation','border-emerald-400': $route.path === '/documentation','border-l-2': $route.path === '/documentation'}" style="height:25px">
                             Introduction
                         </li>
-                        <li @click="$router.push('/documentation/shortcuts')" class="hover:text-slate-900 text-slate-700 cursor-pointer" :class="{'font-semibold': $route.path === '/documentation/shortcuts'}">
+                        <li @click="$router.push('/documentation/shortcuts')" class="hover:text-slate-900 text-slate-700 cursor-pointer pl-6" :class="{'font-semibold': $route.path === '/documentation/shortcuts','border-emerald-400': $route.path === '/documentation/shortcuts','border-l-2': $route.path === '/documentation/shortcuts'}">
                             Shortcuts
                         </li>
                     </ul>
