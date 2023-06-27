@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-slate-100">
+    <div class="bg-slate-100 flex flex-col h-screen">
         <VueNavigator class="z-10" />
         <header>
             <div style="background-size:contain;background-position:center;background-repeat:no-repeat;width:300px;height:125px;margin-right:auto;margin-left:auto;margin-top:40px;position:relative;max-width:calc(100% - 100px)" class="logo">
@@ -14,7 +14,7 @@
                 Create Vue Applications using a graphical designer
             </p>
         </header>
-        <main style="width:100%">
+        <main style="width:100%" class="grow">
             <section style="width:100%"><button @click="$router.push('/features')" class="transition-shadow hover:drop-shadow-lg drop-shadow">
                     Features
                 </button> <button @click="$router.push('/pricing')" class="transition-shadow hover:drop-shadow-lg drop-shadow">
@@ -30,7 +30,7 @@
                 </section>
             </section>
         </main>
-        <Footer />
+        <Footer class="pb-12" />
     </div>
 </template>
 <script>

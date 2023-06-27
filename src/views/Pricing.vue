@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-slate-100">
+    <div class="bg-slate-100 flex flex-col h-screen">
         <VueNavigator class="z-10" />
         <header>
             <h1>
@@ -9,7 +9,7 @@
                 Compare plans
             </p>
         </header>
-        <main>
+        <main class="grow">
             <section style="text-align:left" class="drop-shadow">
                 <Pricing style="margin-bottom:50px;max-width:786px;text-align:left;margin-right:auto;margin-left:auto" />
             </section>
@@ -21,7 +21,7 @@
                 </button>
             </section>
         </main>
-        <Footer />
+        <Footer class="pb-12" />
     </div>
 </template>
 <script>
