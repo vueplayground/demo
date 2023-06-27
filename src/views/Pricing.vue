@@ -5,12 +5,9 @@
             <h1>
                 Pricing
             </h1>
-            <p>
-                Compare plans
-            </p>
         </header>
         <main class="bg-slate-100 grow">
-            <section style="text-align:left" class="bg-slate-100 drop-shadow">
+            <section style="text-align:left" class="bg-slate-100">
                 <Pricing style="margin-bottom:50px;max-width:786px;text-align:left;margin-right:auto;margin-left:auto" />
             </section>
             <section style="text-align:center" class="pb-12 bg-slate-100">
