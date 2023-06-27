@@ -114,13 +114,16 @@
                 </ul>
             </section>
         </main>
+        <Footer />
     </div>
 </template>
 <script>
     import VueNavigator from "@/components/Navigator.vue";
+    import Footer from "@/components/Footer.vue";
     export default {
         components: {
-            VueNavigator
+            VueNavigator,
+            Footer
         }
     };
 </script>

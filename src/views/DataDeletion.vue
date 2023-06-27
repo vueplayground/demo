@@ -18,13 +18,16 @@
                 <p>Don't hesitate to contact us if you have any questions.</p><a href="mailto:steffan@siglar.no">steffan@siglar.no</a>
             </section>
         </main>
+        <Footer />
     </div>
 </template>
 <script>
     import VueNavigator from "@/components/Navigator.vue";
+    import Footer from "@/components/Footer.vue";
     export default {
         components: {
-            VueNavigator
+            VueNavigator,
+            Footer
         }
     };
 </script>

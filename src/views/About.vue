@@ -30,15 +30,18 @@
                 </section>
             </section>
         </main>
+        <Footer />
     </div>
 </template>
 <script>
     import VueNavigator from "@/components/Navigator.vue";
+    import Footer from "@/components/Footer.vue";
     export default {
-        data: () => ({}),
         components: {
-            VueNavigator
+            VueNavigator,
+            Footer
         },
+        data: () => ({}),
         methods: {
             open(url) {
                 location.href = url

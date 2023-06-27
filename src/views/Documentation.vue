@@ -3,12 +3,12 @@
         <VueNavigator class="absolute flex z-50" />
         <main style="width:100%" class="relative overflow-auto flex-1 h-full">
             <div class="relative h-full w-full flex">
-                <label class="shadow-md bg-gradient-to-tl bg-emerald-400 from-emerald-500 fixed z-40 md:hidden cursor-pointer inline-flex items-center p-2 mt-4 ml-6 text-sm text-white checked:text-white rounded-lg" for="toggle">
+                <label class="from-slate-600 bg-slate-500 shadow-md bg-gradient-to-tl fixed z-40 md:hidden cursor-pointer inline-flex items-center p-2 mt-4 ml-6 text-sm text-white checked:text-white rounded-lg" for="toggle">
                     <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                         <path clip-rule="evenodd" fill-rule="evenodd" d="M2 4.75A.75.75 0 012.75 4h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 4.75zm0 10.5a.75.75 0 01.75-.75h7.5a.75.75 0 010 1.5h-7.5a.75.75 0 01-.75-.75zM2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10z"></path>
-                    </svg> </label><input class="peer hidden" type="checkbox" id="toggle" />
-                <div class="pt-16 border-r border-slate-200 bg-slate-100 peer-checked:px-4 peer-checked:pt-16 peer-checked:pb-4 md:p-7 duration-200 transition-all ease-in-out w-0 max-w-full z-30 peer-checked:w-80 md:w-80 h-full absolute md:relative top-0 overflow-auto">
-                    <h3 class="font-bold text-slate-800">
+                    </svg> </label><input class="peer hidden" type="checkbox" id="toggle" v-model="menu" />
+                <div class="md:p-7 md:w-80 xl:w-80 md:shadow-md shadow-lg pt-16 border-r border-slate-200 bg-slate-100 peer-checked:px-7 peer-checked:pt-16 peer-checked:pb-7 duration-200 transition-all ease-in-out w-0 max-w-full z-30 peer-checked:w-80 h-full absolute md:relative top-0 overflow-auto">
+                    <h3 class="whitespace-nowrap font-bold text-slate-800">
                         Getting Started
                     </h3>
                     <ul class="space-y-1 ml-2 mt-4 border-l border-slate-400">
@@ -21,17 +21,23 @@
                     </ul>
                 </div><router-view class="grow h-full overflow-auto">
                 </router-view>
+                <div class="absolute h-full w-full" v-if="menu" @click="menu=false"></div>
             </div>
         </main>
+        <Footer />
     </div>
 </template>
 <script>
     import VueNavigator from "@/components/Navigator.vue";
+    import Footer from "@/components/Footer.vue";
     export default {
-        data: () => ({}),
         components: {
-            VueNavigator
+            VueNavigator,
+            Footer
         },
+        data: () => ({
+            menu: false
+        }),
         methods: {
             open(url) {
                 location.href = url
