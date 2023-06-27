@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-slate-100">
+    <div class="bg-slate-100 flex flex-col h-screen">
         <VueNavigator class="z-10" />
         <header>
             <h1>
@@ -7,7 +7,7 @@
             </h1>
             <p>Updated 28.04.2023</p>
         </header>
-        <main>
+        <main class="grow">
             <section style="margin:auto" class="max-w-2xl container">
                 <p>
                     Request deletion by sending us an email. You should contact us using the same email as your registered

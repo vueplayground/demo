@@ -1,6 +1,6 @@
 <template>
     <nav style="background-image:linear-gradient(204deg, #f0dfe20d 54%, #e1ebe8ff 59%, #f0f5faff 74%);background-color:#edf7f4ff">
-        <div style="width:216px;background-size:contain;background-repeat:no-repeat;margin-top:7px;margin-left:10px;cursor:pointer;float:left;height:35px" @click="$router.push('/')" class="sm:inline hidden logo">
+        <div style="width:216px;background-size:contain;background-repeat:no-repeat;margin-top:7px;margin-left:10px;cursor:pointer;float:left;height:35px;margin-bottom:7px" @click="$router.push('/')" class="sm:inline hidden logo">
         </div><button @click="$router.push('/')" :class="{active: route === '/'}" class="">
             About
         </button><button @click="$router.push('/features')" :class="{active: route === '/features'}">
