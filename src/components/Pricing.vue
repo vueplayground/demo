@@ -76,7 +76,6 @@
         width: calc((100% / 2) - (10px / 2));
         box-sizing: border-box;
         border-radius: 4px;
-        min-height: 100%;
         flex-direction: column;
         cursor: pointer;
         transition: filter linear .3s;

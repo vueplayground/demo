@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-slate-100 flex flex-col h-screen">
+    <div class="space-y-0 bg-slate-100 flex flex-col h-screen">
         <VueNavigator class="z-10" />
         <header>
             <h1>
@@ -9,11 +9,11 @@
                 Compare plans
             </p>
         </header>
-        <main class="grow">
-            <section style="text-align:left" class="drop-shadow">
+        <main class="bg-slate-100 grow">
+            <section style="text-align:left" class="bg-slate-100 drop-shadow">
                 <Pricing style="margin-bottom:50px;max-width:786px;text-align:left;margin-right:auto;margin-left:auto" />
             </section>
-            <section style="text-align:center">
+            <section style="text-align:center" class="pb-12 bg-slate-100">
                 <button @click="$router.push('/features')" class="transition-shadow hover:drop-shadow-lg drop-shadow">
                     Features
                 </button> <button @click="open('https://www.vueplay.com')" class="duration-300 transition hover:drop-shadow-lg drop-shadow higlighted">

@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-slate-100 flex flex-col h-screen">
+    <div class="space-y-0 bg-slate-100 flex flex-col h-screen">
         <VueNavigator class="z-10" />
         <header>
             <h1>
@@ -7,15 +7,15 @@
             </h1>
             <p>Updated 28.04.2023</p>
         </header>
-        <main class="grow">
-            <section style="margin:auto" class="max-w-2xl container">
+        <main class="grow bg-slate-100">
+            <section style="margin:auto" class="pb-24 max-w-2xl container">
                 <p>
                     Request deletion by sending us an email. You should contact us using the same email as your registered
                     account. Later on it will be possible to delete your account with all connected data in the app profile
                     modal.
                 </p>
                 <h2>Contact Us</h2>
-                <p>Don't hesitate to contact us if you have any questions.</p><a href="mailto:steffan@siglar.no">steffan@siglar.no</a>
+                <p>Don't hesitate to contact us if you have any questions.</p><a href="mailto:steffan@siglar.no" class="">steffan@siglar.no</a>
             </section>
         </main>
         <Footer />

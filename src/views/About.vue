@@ -1,6 +1,6 @@
 <template>
-    <div class="bg-slate-100 flex flex-col h-screen">
-        <VueNavigator />
+    <div class="bg-slate-100 flex flex-col h-screen overflow-auto">
+        <VueNavigator class="z-20" />
         <header class="">
             <div style="background-size:contain;background-position:center;background-repeat:no-repeat;width:300px;height:125px;margin-right:auto;margin-left:auto;margin-top:40px;position:relative;max-width:calc(100% - 100px)" class="logo">
             </div>
