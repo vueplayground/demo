@@ -1,6 +1,6 @@
-## Built with Vue Playground
+## Built with Vue Play
 
-### Only change files in src to keep compability with the Vue Playground designer
+### Only change files in src to keep compability with the Vue Play designer
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/owner/repo)
 
