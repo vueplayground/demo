@@ -13,7 +13,7 @@
             <section style="text-align:center" class="pb-12 bg-slate-100">
                 <button @click="$router.push('/features')" class="transition-shadow hover:drop-shadow-lg drop-shadow">
                     Features
-                </button> <button @click="open('https://www.vueplay.com')" class="duration-300 transition hover:drop-shadow-lg drop-shadow higlighted">
+                </button> <button @click="open('https://studio.vueplay.com')" class="duration-300 transition hover:drop-shadow-lg drop-shadow higlighted">
                     Get Started ⇾
                 </button>
             </section>
