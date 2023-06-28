@@ -160,7 +160,7 @@
             </section>
             <section><button @click="$router.push('/pricing')" class="transition-shadow hover:drop-shadow-lg drop-shadow">
                     Pricing
-                </button><button @click="open('https://www.vueplay.com')" class="duration-300 transition hover:drop-shadow-lg drop-shadow higlighted">
+                </button><button @click="open('https://studio.vueplay.com')" class="duration-300 transition hover:drop-shadow-lg drop-shadow higlighted">
                     Get Started ⇾
                 </button></section>
         </main>
