@@ -10,7 +10,7 @@
         </button><button @click="$router.push('/pricing')" :class="{active: route === '/pricing'}">
             Pricing
         </button> <button @click="open('https://studio.vueplay.com')" :class="{active: route === '/app'}" style="font-weight:bold;background-color:#74AE86;color:#fff;border-top-left-radius:4px;border-bottom-left-radius:4px;height:29px;border-top-right-radius:4px;border-bottom-right-radius:4px;margin-right:5px" class="hover:shadow-lg build">
-            Build ⇾
+            Login ⇾
         </button>
     </nav>
 </template>
@@ -60,6 +60,6 @@
     }
 
     .logo {
-        background-image: url(@/assets/vueplayground-logo-long.png);
+        background-image: url(@/assets/vueplay-logo-long.png);
     }
 </style>

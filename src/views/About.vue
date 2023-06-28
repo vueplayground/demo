@@ -2,7 +2,7 @@
     <div class="bg-slate-100 flex flex-col h-screen overflow-auto">
         <VueNavigator class="z-20" />
         <header class="">
-            <div style="background-size:contain;background-position:center;background-repeat:no-repeat;width:300px;height:125px;margin-right:auto;margin-left:auto;margin-top:40px;position:relative;max-width:calc(100% - 100px)" class="logo">
+            <div style="background-size:contain;background-position:center;background-repeat:no-repeat;width:266px;height:125px;margin-right:auto;margin-left:auto;margin-top:40px;position:relative;max-width:calc(100% - 100px);margin-bottom:-20px;left:5px" class="logo">
             </div>
             <h1 style="text-shadow:0px 0px">
                 <em style="margin-top:28px">
@@ -135,7 +135,7 @@
     }
 
     .logo {
-        background-image: url(@/assets/vueplayground-logo.png);
+        background-image: url(@/assets/vueplay-logo-long.png);
     }
 
     .screenshot {
