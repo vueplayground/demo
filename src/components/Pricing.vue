@@ -6,7 +6,7 @@
                 Try out the playground with only a few limitations.
             </p>
             <div class="price">
-                0 USD / Month
+                0.00 USD / Year
             </div>
             <div class="feature-list">
                 <div>Drag & Drop</div>
@@ -34,7 +34,7 @@
                 Use the full playground without any limitations.
             </p>
             <div class="price">
-                4.99 USD / Month
+                59.00 USD / Year
             </div>
             <div class="feature-list">
                 <div>Everything in Free</div>
