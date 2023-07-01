@@ -1,7 +1,9 @@
 <template>
     <nav style="background-image:linear-gradient(204deg, #f0dfe20d 54%, #e1ebe8ff 59%, #f0f5faff 74%);background-color:#edf7f4ff;min-height:50px" class="shadow border-slate-300 border-b">
         <div style="width:216px;background-size:contain;background-repeat:no-repeat;margin-left:10px;cursor:pointer;float:left;height:35px;margin-top:7px;margin-bottom:7px" @click="$router.push('/')" class="sm:inline hidden logo">
-        </div><button @click="$router.push('/features')" :class="{active: route === '/features'}">
+        </div><button @click="$router.push('/')" :class="{active: route === '/'}" class="">
+            Home
+        </button><button @click="$router.push('/features')" :class="{active: route === '/features'}">
             Features
         </button><button @click="$router.push('/documentation')" :class="{active: route.includes('/documentation')}">
             Docs
