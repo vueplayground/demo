@@ -5,10 +5,10 @@
                 Introduction
             </h1>
             <p>
-                Welcome to Vue Playground. The documentations site is still under develoment.
+                Welcome to Vue Play!
             </p>
-            <p>
-                Feel free to come back in a couple of weeks to see it updated :-)
+            <p style="margin-top:15px">
+                The documentation site is still under development, come back soon to see it updated.
             </p>
         </article>
     </section>

@@ -7,15 +7,6 @@
             <div class="relative overflow-x-auto shadow-md sm:rounded-lg mt-12">
                 <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
                     <caption class="p-5 text-lg font-semibold text-left text-gray-900 bg-white dark:text-white dark:bg-gray-800">
-                        <p class="text-gray-500 dark:text-gray-400">
-                            Replace
-                            <kbd class="px-2 py-1.5 text-xs font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500" style="margin-left:5px;margin-right:5px">Ctrl</kbd>
-                            with
-                            <kbd class="px-2 py-1.5 text-xs font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500" style="margin-right:5px;margin-left:5px">
-                                CMD
-                            </kbd>
-                            on mac
-                        </p>
                     </caption>
                     <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
                         <tr>
@@ -23,145 +14,137 @@
                                 Description
                             </th>
                             <th scope="col" class="px-6 py-3 text-right">
-                                Shortcut
+                                Shortcuts
                             </th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                            <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                            <th scope="row" class="px-6 py-4 font-medium text-gray-900 dark:text-white">
                                 Copy
                             </th>
                             <td class="px-6 py-4 text-right">
                                 <p class="text-gray-500 dark:text-gray-400">
 
-                                    <kbd class="px-2 py-1.5 text-xs font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">Ctrl</kbd>
-                                    +
                                     <kbd class="px-2 py-1.5 text-xs font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">
-                                        C
+                                        {{isMac ? 'CMD' : 'CTRL'}} + C
                                     </kbd>
                                 </p>
                             </td>
                         </tr>
                         <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                            <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                            <th scope="row" class="px-6 py-4 font-medium text-gray-900 dark:text-white">
                                 Paste
                             </th>
                             <td class="px-6 py-4 text-right">
                                 <p class="text-gray-500 dark:text-gray-400">
 
-                                    <kbd class="px-2 py-1.5 text-xs font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">Ctrl</kbd>
-                                    + <kbd class="px-2 py-1.5 text-xs font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">
-                                        V
+                                    <kbd class="px-2 py-1.5 text-xs font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">
+                                        {{isMac ? 'CMD' : 'CTRL'}} + V
                                     </kbd>
                                 </p>
                             </td>
                         </tr>
                         <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                            <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                            <th scope="row" class="px-6 py-4 font-medium text-gray-900 dark:text-white">
                                 Undo
                             </th>
                             <td class="px-6 py-4 text-right">
                                 <p class="text-gray-500 dark:text-gray-400">
 
-                                    <kbd class="px-2 py-1.5 text-xs font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">Ctrl</kbd>
-                                    + <kbd class="px-2 py-1.5 text-xs font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">
-                                        Z
+                                    <kbd class="px-2 py-1.5 text-xs font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">
+                                        {{isMac ? 'CMD' : 'CTRL'}} + Z
                                     </kbd>
                                 </p>
                             </td>
                         </tr>
                         <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                            <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                            <th scope="row" class="px-6 py-4 font-medium text-gray-900 dark:text-white">
                                 Redo
                             </th>
                             <td class="px-6 py-4 text-right">
                                 <p class="text-gray-500 dark:text-gray-400">
 
-                                    <kbd class="px-2 py-1.5 text-xs font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">Ctrl</kbd>
-                                    + <kbd class="px-2 py-1.5 text-xs font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">Shift</kbd>
-                                    + <kbd class="px-2 py-1.5 text-xs font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">
-                                        Z
+                                    <kbd class="px-2 py-1.5 text-xs font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">
+                                        {{isMac ? 'CMD' : 'CTRL'}} + SHIFT + Z
                                     </kbd>
                                 </p>
                             </td>
                         </tr>
                         <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                            <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                            <th scope="row" class="px-6 py-4 font-medium text-gray-900 dark:text-white">
                                 Delete
                             </th>
                             <td class="px-6 py-4 text-right">
                                 <p class="text-gray-500 dark:text-gray-400">
 
                                     <kbd class="px-2 py-1.5 text-xs font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">
-                                        Delete
+                                        DELETE
                                     </kbd>
                                     &nbsp;&nbsp;or&nbsp;&nbsp;
                                     <kbd class="px-2 py-1.5 text-xs font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">
-                                        Backspace
+                                        BACKSPACE
                                     </kbd>
                                 </p>
                             </td>
                         </tr>
                         <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                            <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                            <th scope="row" class="px-6 py-4 font-medium text-gray-900 dark:text-white">
                                 Select previous element
                             </th>
                             <td class="px-6 py-4 text-right">
                                 <p class="text-gray-500 dark:text-gray-400">
 
                                     <kbd class="px-2 py-1.5 text-xs font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">
-                                        Left Arrow
+                                        LEFT ARROW
                                     </kbd>
                                     &nbsp;&nbsp;or&nbsp;&nbsp;
                                     <kbd class="px-2 py-1.5 text-xs font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">
-                                        Up Arrow
+                                        UP ARROW
                                     </kbd>
                                 </p>
                             </td>
                         </tr>
                         <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                            <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                            <th scope="row" class="px-6 py-4 font-medium text-gray-900 dark:text-white">
                                 Select next element
                             </th>
                             <td class="px-6 py-4 text-right">
                                 <p class="text-gray-500 dark:text-gray-400">
 
                                     <kbd class="px-2 py-1.5 text-xs font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">
-                                        Right Arrow
+                                        RIGHT ARROW
                                     </kbd>
                                     &nbsp;&nbsp;or&nbsp;&nbsp;
                                     <kbd class="px-2 py-1.5 text-xs font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">
-                                        Down Arrow
+                                        DOWN ARROW
                                     </kbd>
                                 </p>
                             </td>
                         </tr>
                         <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                            <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                            <th scope="row" class="px-6 py-4 font-medium text-gray-900 dark:text-white">
                                 Select next element inside parent
                             </th>
                             <td class="px-6 py-4 text-right">
                                 <p class="text-gray-500 dark:text-gray-400">
 
                                     <kbd class="px-2 py-1.5 text-xs font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">
-                                        Tab
+                                        TAB
                                     </kbd>
                                 </p>
                             </td>
                         </tr>
                         <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                            <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                            <th scope="row" class="px-6 py-4 font-medium text-gray-900 dark:text-white">
                                 Select previous element inside parent
                             </th>
                             <td class="px-6 py-4 text-right">
                                 <p class="text-gray-500 dark:text-gray-400">
 
                                     <kbd class="px-2 py-1.5 text-xs font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">
-                                        Tab
+                                        SHIFT + TAB
                                     </kbd>
-                                    &nbsp;+
-                                    <kbd class="px-2 py-1.5 text-xs font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">Shift</kbd>
                                 </p>
                             </td>
                         </tr>
@@ -173,7 +156,17 @@
 </template>
 <script>
     export default {
-        data: () => ({})
+        data: () => ({}),
+        computed: {
+            isMac() {
+                return /(Mac|iPhone|iPod|iPad)/i.test(navigator?.userAgentData?.platform || navigator?.platform)
+            }
+        }
     };
 </script>
-<style scoped></style>
+<style scoped>
+    th,
+    td {
+        width: 50% !important;
+    }
+</style>
