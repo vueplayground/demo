@@ -24,7 +24,7 @@
                             <td class="px-6 py-4 text-right">
                                 <p class="text-gray-500 dark:text-gray-400">
 
-                                    <kbd class="px-2 py-1.5 text-xs font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">
+                                    <kbd class="inline-block my-0.5 px-2 py-1.5 text-xs font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">
                                         {{isMac ? 'CMD' : 'CTRL'}} + C
                                     </kbd>
                                 </p>
@@ -37,7 +37,7 @@
                             <td class="px-6 py-4 text-right">
                                 <p class="text-gray-500 dark:text-gray-400">
 
-                                    <kbd class="px-2 py-1.5 text-xs font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">
+                                    <kbd class="inline-block my-0.5 px-2 py-1.5 text-xs font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">
                                         {{isMac ? 'CMD' : 'CTRL'}} + V
                                     </kbd>
                                 </p>
@@ -50,7 +50,7 @@
                             <td class="px-6 py-4 text-right">
                                 <p class="text-gray-500 dark:text-gray-400">
 
-                                    <kbd class="px-2 py-1.5 text-xs font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">
+                                    <kbd class="inline-block my-0.5 px-2 py-1.5 text-xs font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">
                                         {{isMac ? 'CMD' : 'CTRL'}} + Z
                                     </kbd>
                                 </p>
@@ -63,7 +63,7 @@
                             <td class="px-6 py-4 text-right">
                                 <p class="text-gray-500 dark:text-gray-400">
 
-                                    <kbd class="px-2 py-1.5 text-xs font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">
+                                    <kbd class="inline-block my-0.5 px-2 py-1.5 text-xs font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">
                                         {{isMac ? 'CMD' : 'CTRL'}} + SHIFT + Z
                                     </kbd>
                                 </p>
@@ -76,11 +76,11 @@
                             <td class="px-6 py-4 text-right">
                                 <p class="text-gray-500 dark:text-gray-400">
 
-                                    <kbd class="px-2 py-1.5 text-xs font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">
+                                    <kbd class="inline-block my-0.5 px-2 py-1.5 text-xs font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">
                                         DELETE
                                     </kbd>
                                     &nbsp;&nbsp;or&nbsp;&nbsp;
-                                    <kbd class="px-2 py-1.5 text-xs font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">
+                                    <kbd class="inline-block my-0.5 px-2 py-1.5 text-xs font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">
                                         BACKSPACE
                                     </kbd>
                                 </p>
@@ -93,11 +93,11 @@
                             <td class="px-6 py-4 text-right">
                                 <p class="text-gray-500 dark:text-gray-400">
 
-                                    <kbd class="px-2 py-1.5 text-xs font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">
+                                    <kbd class="inline-block my-0.5 px-2 py-1.5 text-xs font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">
                                         LEFT ARROW
                                     </kbd>
                                     &nbsp;&nbsp;or&nbsp;&nbsp;
-                                    <kbd class="px-2 py-1.5 text-xs font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">
+                                    <kbd class="inline-block my-0.5 px-2 py-1.5 text-xs font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">
                                         UP ARROW
                                     </kbd>
                                 </p>
@@ -110,11 +110,11 @@
                             <td class="px-6 py-4 text-right">
                                 <p class="text-gray-500 dark:text-gray-400">
 
-                                    <kbd class="px-2 py-1.5 text-xs font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">
+                                    <kbd class="inline-block my-0.5 px-2 py-1.5 text-xs font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">
                                         RIGHT ARROW
                                     </kbd>
                                     &nbsp;&nbsp;or&nbsp;&nbsp;
-                                    <kbd class="px-2 py-1.5 text-xs font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">
+                                    <kbd class="inline-block my-0.5 px-2 py-1.5 text-xs font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">
                                         DOWN ARROW
                                     </kbd>
                                 </p>
@@ -127,7 +127,7 @@
                             <td class="px-6 py-4 text-right">
                                 <p class="text-gray-500 dark:text-gray-400">
 
-                                    <kbd class="px-2 py-1.5 text-xs font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">
+                                    <kbd class="inline-block my-0.5 px-2 py-1.5 text-xs font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">
                                         TAB
                                     </kbd>
                                 </p>
@@ -140,7 +140,7 @@
                             <td class="px-6 py-4 text-right">
                                 <p class="text-gray-500 dark:text-gray-400">
 
-                                    <kbd class="px-2 py-1.5 text-xs font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">
+                                    <kbd class="inline-block my-0.5 px-2 py-1.5 text-xs font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">
                                         SHIFT + TAB
                                     </kbd>
                                 </p>
