@@ -6,7 +6,7 @@
                 Features
             </h1>
             <p style="margin-right:auto;margin-left:auto;max-width:calc(100% - 40px);width:700px" class="text-slate-600 my-4 text-xl">
-                Vue Playground is a full drag & drop designer for building vue components, websites and web applications.
+                Vue Play is a full drag & drop designer for building vue components, websites and web applications.
             </p>
         </header>
         <main style="text-align:center;width:100%;margin-bottom:50px">
