@@ -9,6 +9,16 @@
         <main class="p-6 m-auto max-w-xl container">
             <section class="shadow border mb-6 rounded-lg bg-white p-6">
                 <h3>
+                    07.07.2023 - Release 1.0.3
+                </h3>
+                <ul class="indent-3 ml-5 list-disc">
+                    <li class="" style="height:29px">
+                        Design - Huge design update
+                    </li>
+                </ul>
+            </section>
+            <section class="shadow border mb-6 rounded-lg bg-white p-6">
+                <h3>
                     20.06.2023 - Release 1.0.2
                 </h3>
                 <ul class="indent-3 ml-5 list-disc">
