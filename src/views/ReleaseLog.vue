@@ -15,6 +15,9 @@
                     <li class="" style="height:29px">
                         Design - Huge design update
                     </li>
+                    <li class="" style="height:29px">
+                        Enhancement - Better tailwind style controllers
+                    </li>
                 </ul>
             </section>
             <section class="shadow border mb-6 rounded-lg bg-white p-6">
