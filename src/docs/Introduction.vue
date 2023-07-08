@@ -1,6 +1,6 @@
 <template>
     <section class="p-6 pt-20 md:pt-6 pb-40">
-        <article class="max-w-xl">
+        <article class="mb-6 mt-4">
             <h1 class="mb-6 text-4xl">
                 Introduction
             </h1>
@@ -14,13 +14,13 @@
                 Drag and drop elements to the playground to build a new component template without writing a single line of code.
             </p>
             <p style="margin-top:15px" class="text-lg">
-                Then select the elements you want to style by clicking on the elements in the playground and use the style controls in the toolbar to update values like, width, height, colors, gradients, position etc.
+                Select the elements you want to style by clicking on the elements in the playground and use the style controls in the toolbar to update values like, width, height, colors, gradients, position etc.
             </p>
             <p style="margin-top:15px" class="text-lg">
                 Vue Play does also have built in support for the well known utility-first CSS framework Tailwind CSS, with easy navigation through their thousands of premade class combinations.
             </p>
             <p style="margin-top:15px" class="text-lg">
-                Use your keyboard shortcuts to navigate through the elements or have an overlook in the layers view.
+                Use keyboard shortcuts to navigate through the elements or have an overlook in the layers view.
             </p>
             <p style="margin-top:15px" class="text-lg">
                 Paste any valid HTML right into the playground, duplicate elements and have full control of your files with a code editor base on the Monaco Editor.
