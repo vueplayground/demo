@@ -26,6 +26,9 @@
                 Paste any valid HTML right into the playground, duplicate elements and have full control of your files with a code editor base on the Monaco Editor.
             </p>
             <p style="margin-top:15px" class="text-lg">
+                When your are happy with your product, connect to Github and publish your site to Github Pages with just a few clicks.
+            </p>
+            <p style="margin-top:15px" class="text-lg">
                 Have fun! :-)
             </p>
         </article>
