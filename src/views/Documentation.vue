@@ -20,7 +20,7 @@
                             Shortcuts
                         </li>
                     </ul>
-                </div><router-view class="grow h-full overflow-auto">
+                </div><router-view class="max-w-2xl m-auto container grow h-full overflow-auto">
                 </router-view>
                 <div class="absolute h-full w-full" v-if="menu" @click="menu=false"></div>
             </div>
