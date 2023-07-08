@@ -4,11 +4,29 @@
             <h1 class="mb-6 text-4xl">
                 Introduction
             </h1>
-            <p>
+            <p class="text-2xl">
                 Welcome to Vue Play!
             </p>
-            <p style="margin-top:15px">
-                The documentation site is still under development, come back soon to see it updated.
+            <p style="margin-top:15px" class="text-lg font-medium">
+                A visual and innovative design tool for creating and developing Vue.js components and applications with ease.
+            </p>
+            <p style="margin-top:15px" class="text-lg">
+                Drag and drop elements to the playground to build a new component template without writing a single line of code.
+            </p>
+            <p style="margin-top:15px" class="text-lg">
+                Then select the elements you want to style by clicking on the elements in the playground and use the style controls in the toolbar to update values like, width, height, colors, gradients, position etc.
+            </p>
+            <p style="margin-top:15px" class="text-lg">
+                Vue Play does also have built in support for the well known utility-first CSS framework Tailwind CSS, with easy navigation through their thousands of premade class combinations.
+            </p>
+            <p style="margin-top:15px" class="text-lg">
+                Use your keyboard shortcuts to navigate through the elements or have an overlook in the layers view.
+            </p>
+            <p style="margin-top:15px" class="text-lg">
+                Paste any valid HTML right into the playground, duplicate elements and have full control of your files with a code editor base on the Monaco Editor.
+            </p>
+            <p style="margin-top:15px" class="text-lg">
+                Have fun! :-)
             </p>
         </article>
     </section>
