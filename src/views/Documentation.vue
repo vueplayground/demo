@@ -20,6 +20,17 @@
                             Shortcuts
                         </li>
                     </ul>
+                    <h3 class="mt-6 whitespace-nowrap font-bold text-slate-800 ml-2">
+                        Limitations
+                    </h3>
+                    <ul class="space-y-1 ml-3 mt-4 border-l border-slate-400">
+                        <li class="hover:text-slate-900 text-slate-700 cursor-pointer pl-6" @click="$router.push('/documentation/composition-api')" :class="{'font-semibold': $route.path === '/documentation','border-emerald-400': $route.path === '/documentation','border-l-4': $route.path === '/documentation'}" style="height:25px">
+                            Composition API
+                        </li>
+                        <li @click="$router.push('/documentation/v-bind')" class="hover:text-slate-900 text-slate-700 cursor-pointer pl-6" :class="{'font-semibold': $route.path === '/documentation/shortcuts','border-emerald-400': $route.path === '/documentation/shortcuts','border-l-4': $route.path === '/documentation/shortcuts'}">
+                            v-bind
+                        </li>
+                    </ul>
                 </div><router-view class="m-auto container grow h-full overflow-auto">
                 </router-view>
                 <div class="absolute h-full w-full" v-if="menu" @click="menu=false"></div>
