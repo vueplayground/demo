@@ -27,6 +27,9 @@
                         <li class="hover:text-slate-900 text-slate-700 cursor-pointer pl-6" @click="$router.push('/documentation/composition-api')" :class="{'font-semibold': $route.path === '/documentation/composition-api','border-emerald-400': $route.path === '/documentation/composition-api','border-l-4': $route.path === '/documentation/composition-api'}" style="height:25px">
                             Composition API
                         </li>
+                        <li class="hover:text-slate-900 text-slate-700 cursor-pointer pl-6" @click="$router.push('/documentation/typescript')" :class="{'font-semibold': $route.path === '/documentation/typescript','border-emerald-400': $route.path === '/documentation/typescript','border-l-4': $route.path === '/documentation/typescript'}" style="height:25px">
+                            TypeScript
+                        </li>
                         <li @click="$router.push('/documentation/v-bind')" class="hover:text-slate-900 text-slate-700 cursor-pointer pl-6" :class="{'font-semibold': $route.path === '/documentation/v-bind','border-emerald-400': $route.path === '/documentation/v-bind','border-l-4': $route.path === '/documentation/v-bind'}">
                             v-bind
                         </li>
