@@ -7,7 +7,7 @@
 
 ------------
 
-### Found a bug, have a great idea or just have a simple Question?
+### Found a Bug, have a great idea or just have a simple Question?
 Feel free to [Open an Issue](https://github.com/vueplayground/vueplay.com/issues)
 
 ------------
