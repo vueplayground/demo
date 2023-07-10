@@ -39,7 +39,7 @@
                     I have a question, found a bug or have a feature request. What do I do?
                 </p>
                 <p class="text-lg">
-                    We are working on a community page which is coming soon to handle support, feature request and bug reports. In the meantime, feel free to post an issue on
+                    We are working on a community page which is coming soon to handle support, feature requests and bug reports. In the meantime, feel free to post an issue on
                     <a href="https://github.com/vueplayground/vueplay.com" target="_blank">
                         GitHub.
                     </a>
