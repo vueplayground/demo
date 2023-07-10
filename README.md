@@ -7,8 +7,14 @@
 
 ------------
 
-### Found a bug, have a great idea or just have a simple question?
+### Found a bug, have a great idea or just have a simple Question?
 Feel free to [Open an Issue](https://github.com/vueplayground/vueplay.com/issues)
+
+------------
+
+### Notice: This is only the repository for the public landingpage https://www.vueplay.com
+
+The actual web application is not open sourece and can be visited at https://studio.vueplay.com
 
 ------------
 
