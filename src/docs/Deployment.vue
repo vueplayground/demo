@@ -8,10 +8,10 @@
                 Launch your site Anywhere
             </p>
             <p style="margin-top:15px" class="py-2 text-lg font-medium">
-                Vue Play can build a production ready distribution folder off your application or publish directly to GitHub Pages using GitHub Actions.
+                Vue Play can build a production-ready distribution folder off your application or publish directly to GitHub Pages using GitHub Actions.
             </p>
             <p style="margin-top:15px" class="text-lg">
-                As your project can be connected to GitHub it is easy to create publish pipelines by connecting to third party services like
+                As your project can be connected to GitHub it is easy to create publish pipelines by connecting to third-party services like
                 <a class="hover:text-blue-700 text-blue-600" href="https://www.netlify.com/" target="_blank">
                     Netlify
                 </a>
@@ -28,10 +28,10 @@
                 This way you can easily create different staging and development environments with full control over your deployment pipeline.
             </p>
             <p style="margin-top:15px" class="text-lg">
-                As Vue Play also provides export of a production ready distribution folder, you can use your own host and upload files to your server using FTP.
+                As Vue Play also provides export of a production-ready distribution folder, you can use your host and upload files to your server using FTP.
             </p>
             <p style="margin-top:15px" class="text-lg">
-                This way you are not bound to any hosting provider and are free to host your anywhere as you like.
+                This way you are not bound to any hosting provider and are free to host your site anywhere as you like.
             </p>
         </article>
     </section>
