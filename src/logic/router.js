@@ -31,6 +31,10 @@ const routes = [{
         component: () => import('@/docs/Deployment.vue')
     },
     {
+        path: 'faq',
+        component: () => import('@/docs/FAQ.vue')
+    },
+    {
         path: 'general',
         component: () => import('@/docs/General.vue')
     },
