@@ -1,6 +1,6 @@
 ## Welcome to Vue Play
 
-### The ultimate Web App Designer with a Graphical User Interface
+### The Ultimate Web App Designer with a Graphical User Interface
 
 [![Vue Play](https://www.vueplay.com/screenshot.png)](https://www.vueplay.com)
 
