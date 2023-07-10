@@ -1,11 +1,11 @@
 <template>
     <section class="p-6 pt-20 md:pt-6 pb-40">
         <article class="max-w-2xl mx-auto mb-6 mt-4">
-            <h1 class="mb-6 text-4xl">
+            <h1 class="mb-12 text-4xl">
                 Frequently Asked Questions
             </h1>
-            <div style="margin-bottom:10px;display:inline-block">
-                <p style="margin-top:15px" class="py-2 text-lg font-medium">
+            <div class="shadow border mb-6 rounded-lg bg-white p-6">
+                <p class="pb-2 text-lg font-medium">
                     Why was Vue Play created?
                 </p>
                 <p class="text-lg" style="margin-bottom:10px">
@@ -18,24 +18,24 @@
                     It also opens up possibilities to connect Vue Play with frameworks like Electron to create Native Software for Windows, Mac & Linux or Capacitor by Ionic to build IOS and Android apps in the future!
                 </p>
             </div>
-            <div style="margin-bottom:10px;display:inline-block">
-                <p style="margin-top:15px" class="py-2 text-lg font-medium">
+            <div class="shadow border mb-6 rounded-lg bg-white p-6">
+                <p class="pb-2 text-lg font-medium">
                     There is a "Components" tab in Vue Play which is empty, what is it for?
                 </p>
                 <p class="text-lg">
                     In the future it will house pre-made components to make development faster and more fun. We have planned to build galleries, sliders and other cool components to fill your needs. We also have plans to add community built components, but this currently needs some more work.
                 </p>
             </div>
-            <div style="margin-bottom:10px;display:inline-block">
-                <p style="margin-top:15px" class="py-2 text-lg font-medium">
+            <div class="shadow border mb-6 rounded-lg bg-white p-6">
+                <p class="pb-2 text-lg font-medium">
                     I found a premade Tailwind Component where i copied the code, how can I get it into my Vue Play application?
                 </p>
                 <p class="text-lg">
                     You can paste pre-made tailwind components into the playground using the Context Menu (Three Dots) or Keyboard Shortcuts [CTRL + V] or [CMD + V] on mac while you are in the playground.
                 </p>
             </div>
-            <div style="margin-bottom:10px;display:inline-block">
-                <p style="margin-top:15px" class="py-2 text-lg font-medium">
+            <div class="shadow border mb-6 rounded-lg bg-white p-6">
+                <p class="pb-2 text-lg font-medium">
                     I have a question, found a bug or have a feature request. What do I do?
                 </p>
                 <p class="text-lg">
@@ -45,8 +45,8 @@
                     </a>
                 </p>
             </div>
-            <div style="margin-bottom:10px;display:inline-block">
-                <p style="margin-top:15px" class="py-2 text-lg font-medium">
+            <div class="shadow border mb-6 rounded-lg bg-white p-6">
+                <p class="pb-2 text-lg font-medium">
                     Is "vueplay.com" built entirely with Vue Play?
                 </p>
                 <p class="text-lg">
