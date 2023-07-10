@@ -14,7 +14,7 @@ Feel free to [Open an Issue](https://github.com/vueplayground/vueplay.com/issues
 
 ### Notice: This is only the repository for the public landingpage https://www.vueplay.com
 
-The actual web application is not open sourece and can be visited at https://studio.vueplay.com
+The actual Web Application is _not_ open source and can be visited at https://studio.vueplay.com
 
 ------------
 
