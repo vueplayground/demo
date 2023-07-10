@@ -40,6 +40,14 @@
                             v-bind
                         </li>
                     </ul>
+                    <h3 class="mt-6 whitespace-nowrap font-bold text-slate-800 ml-2">
+                        Other
+                    </h3>
+                    <ul class="space-y-1 ml-3 mt-4 border-l border-slate-400">
+                        <li class="hover:text-slate-900 text-slate-700 cursor-pointer pl-6" @click="$router.push('/documentation/faq')" :class="{'font-semibold': $route.path === '/documentation/faq','border-emerald-400': $route.path === '/documentation/faq','border-l-4': $route.path === '/documentation/faq'}" style="height:25px">
+                            FAQ
+                        </li>
+                    </ul>
                 </div><router-view class="m-auto container grow h-full overflow-auto">
                 </router-view>
                 <div class="absolute h-full w-full" v-if="menu" @click="menu=false"></div>
