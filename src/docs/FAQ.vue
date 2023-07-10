@@ -36,6 +36,17 @@
             </div>
             <div style="margin-bottom:10px;display:inline-block">
                 <p style="margin-top:15px" class="py-2 text-lg font-medium">
+                    I have a question, found a bug or have a feature request. What do I do?
+                </p>
+                <p class="text-lg">
+                    We are working on a community page which is coming soon to handle support, feature request and bug reports. In the meantime, feel free to post an issue on
+                    <a href="https://github.com/vueplayground/vueplay.com" target="_blank">
+                        GitHub.
+                    </a>
+                </p>
+            </div>
+            <div style="margin-bottom:10px;display:inline-block">
+                <p style="margin-top:15px" class="py-2 text-lg font-medium">
                     Is "vueplay.com" built entirely with Vue Play?
                 </p>
                 <p class="text-lg">
