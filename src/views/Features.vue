@@ -158,9 +158,9 @@
                 <div class="">
                 </div>
             </section>
-            <section><button @click="$router.push('/pricing')" class="transition-shadow hover:drop-shadow-lg drop-shadow">
+            <section><button @click="$router.push('/pricing')" class="bg-slate-200 transition-shadow hover:drop-shadow-lg drop-shadow">
                     Pricing
-                </button><button @click="open('https://studio.vueplay.com')" class="duration-300 transition hover:drop-shadow-lg drop-shadow higlighted">
+                </button><button @click="open('https://studio.vueplay.com')" class="bg-purple-500 from-blue-500 bg-gradient-to-br hover:bg-purple-600 hover:from-blue-600 text-white duration-300 transition hover:drop-shadow-lg drop-shadow">
                     Get Started ⇾
                 </button></section>
         </main>
@@ -215,15 +215,6 @@
         color: rgba(238, 76, 215, 1);
     }
 
-    button.higlighted {
-        color: #fff;
-        background-color: #74AE86;
-    }
-
-    button.higlighted:hover {
-        background-color: #8cab96ff;
-    }
-
     section button {
         border: none;
         padding-top: 10px;
@@ -237,17 +228,11 @@
         font-size: 17px;
         margin-right: 20px;
         cursor: pointer;
-        color: #072c38ff;
         transition: .5s ease background;
-        background-color: rgb(235, 235, 235);
     }
 
     section button:last-child {
         margin-right: 0px;
-    }
-
-    section button:hover {
-        background-color: #e6e6e6ff;
     }
 
     .feature-list {

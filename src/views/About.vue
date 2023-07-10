@@ -15,11 +15,11 @@
             </p>
         </header>
         <main style="width:100%" class="grow">
-            <section style="width:100%"><button @click="$router.push('/features')" class="transition-shadow hover:drop-shadow-lg drop-shadow">
+            <section style="width:100%"><button @click="$router.push('/features')" class="hover:bg-slate-300 bg-slate-200 transition-shadow hover:drop-shadow-lg drop-shadow">
                     Features
-                </button> <button @click="$router.push('/pricing')" class="transition-shadow hover:drop-shadow-lg drop-shadow">
+                </button> <button @click="$router.push('/pricing')" class="bg-slate-200 transition-shadow hover:drop-shadow-lg drop-shadow">
                     Pricing
-                </button><button @click="open('https://studio.vueplay.com')" class="duration-300 transition hover:drop-shadow-lg drop-shadow higlighted">
+                </button><button @click="open('https://studio.vueplay.com')" class="bg-purple-500 from-blue-500 bg-gradient-to-br hover:bg-purple-600 hover:from-blue-600 text-white duration-300 transition hover:drop-shadow-lg drop-shadow">
                     Get Started ⇾
                 </button> </section>
             <section>
@@ -80,15 +80,6 @@
         color: #7a7a7aff;
     }
 
-    button.higlighted {
-        color: #fff;
-        background-color: #74AE86;
-    }
-
-    button.higlighted:hover {
-        background-color: #8cab96ff;
-    }
-
     h1 {
         font-size: 45px;
         margin-top: 5px;
@@ -121,17 +112,11 @@
         font-size: 17px;
         margin-right: 20px;
         cursor: pointer;
-        color: #072c38ff;
         transition: .5s ease background;
-        background-color: rgb(235, 235, 235);
     }
 
     section button:last-child {
         margin-right: 0px;
-    }
-
-    section button:hover {
-        background-color: #e6e6e6ff;
     }
 
     .logo {

@@ -3,13 +3,13 @@
         <div style="width:216px;background-size:contain;background-repeat:no-repeat;margin-left:10px;cursor:pointer;float:left;height:35px;margin-top:7px;margin-bottom:7px" @click="$router.push('/')" class="sm:inline hidden logo">
         </div><button @click="$router.push('/')" :class="{active: route === '/'}" class="sm:hidden">
             Home
-        </button><button @click="$router.push('/features')" :class="{active: route === '/features'}">
+        </button><button @click="$router.push('/features')" :class="{active: route === '/features'}" class="hover:text-green-700 text-slate-700">
             Features
-        </button><button @click="$router.push('/documentation')" :class="{active: route.includes('/documentation')}">
+        </button><button @click="$router.push('/documentation')" :class="{active: route.includes('/documentation')}" class="hover:text-green-700 text-slate-700">
             Docs
-        </button><button @click="$router.push('/pricing')" :class="{active: route === '/pricing'}">
+        </button><button @click="$router.push('/pricing')" :class="{active: route === '/pricing'}" class="hover:text-green-700 text-slate-700">
             Pricing
-        </button> <button @click="open('https://studio.vueplay.com')" :class="{active: route === '/app'}" style="font-weight:bold;background-color:#74AE86;color:#fff;border-top-left-radius:4px;border-bottom-left-radius:4px;height:29px;border-top-right-radius:4px;border-bottom-right-radius:4px;margin-right:5px" class="hover:shadow-lg build">
+        </button> <button @click="open('https://studio.vueplay.com')" :class="{active: route === '/app'}" style="font-weight:bold;border-top-left-radius:4px;border-bottom-left-radius:4px;height:29px;border-top-right-radius:4px;border-bottom-right-radius:4px;margin-right:5px" class="hover:bg-violet-600 bg-violet-500 from-blue-500 bg-gradient-to-br hover:from-blue-600 text-white duration-300 transition hover:drop-shadow-lg drop-shadow">
             Login ⇾
         </button>
     </nav>
@@ -42,21 +42,15 @@
 
     button {
         border-style: none;
-        background-color: #00000000;
         padding-right: 12px;
         padding-left: 12px;
         cursor: pointer;
         transition: .3s ease color;
-        color: #5c5c5cff;
         height: 100%;
     }
 
     button.active {
         font-weight: bold;
-    }
-
-    button:hover {
-        color: #74AE86;
     }
 
     .logo {

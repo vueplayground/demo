@@ -11,9 +11,9 @@
                 <Pricing style="margin-bottom:50px;max-width:786px;text-align:left;margin-right:auto;margin-left:auto" />
             </section>
             <section style="text-align:center" class="pb-12 bg-slate-100">
-                <button @click="$router.push('/features')" class="transition-shadow hover:drop-shadow-lg drop-shadow">
+                <button @click="$router.push('/features')" class="bg-slate-200 transition-shadow hover:drop-shadow-lg drop-shadow">
                     Features
-                </button> <button @click="open('https://studio.vueplay.com')" class="duration-300 transition hover:drop-shadow-lg drop-shadow higlighted">
+                </button> <button @click="open('https://studio.vueplay.com')" class="bg-purple-500 from-blue-500 bg-gradient-to-br hover:bg-purple-600 hover:from-blue-600 text-white duration-300 transition hover:drop-shadow-lg drop-shadow">
                     Get Started ⇾
                 </button>
             </section>
@@ -83,15 +83,6 @@
         color: rgba(238, 76, 215, 1);
     }
 
-    button.higlighted {
-        color: #fff;
-        background-color: #74AE86;
-    }
-
-    button.higlighted:hover {
-        background-color: #8cab96ff;
-    }
-
     section button {
         border: none;
         padding-top: 10px;
@@ -105,16 +96,10 @@
         font-size: 17px;
         margin-right: 20px;
         cursor: pointer;
-        color: #072c38ff;
         transition: .5s ease background;
-        background-color: rgb(235, 235, 235);
     }
 
     section button:last-child {
         margin-right: 0px;
-    }
-
-    section button:hover {
-        background-color: #e6e6e6ff;
     }
 </style>

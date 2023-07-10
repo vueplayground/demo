@@ -1,6 +1,6 @@
 <template>
     <div class="comparison">
-        <div class="shadow-lg free drop-shadow" @click="redirect('https://studio.vueplay.com')">
+        <div class="bg-emerald-500 shadow-lg free drop-shadow" @click="redirect('https://studio.vueplay.com')">
             <h2>Free</h2>
             <p>
                 Try out the playground with only a few limitations.
@@ -19,7 +19,7 @@
                 <div>Build distribution</div>
             </div>
         </div>
-        <div class="shadow-slate-300 shadow-lg early-bird drop-shadow" @click="redirect('https://studio.vueplay.com')" style="background-color:#e3447cff">
+        <div class="shadow-slate-300 shadow-lg early-bird drop-shadow from-fuchsia-400 bg-purple-400 bg-gradient-to-br hover:bg-purple-500 hover:from-fuchsia-500 text-white duration-300 transition hover:drop-shadow-lg drop-shadow" @click="redirect('https://studio.vueplay.com')">
             <h2 style="color:#ffffffff">
 
 
@@ -70,7 +70,6 @@
 
     .comparison>div {
         display: inline-flex;
-        background-color: #74AE86;
         margin-right: 10px;
         padding: 30px;
         width: calc((100% / 2) - (10px / 2));
