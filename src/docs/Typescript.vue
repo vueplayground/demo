@@ -5,7 +5,7 @@
                 TypeScript
             </h1>
             <p style="margin-top:15px" class="text-xl py-2 font-medium">
-                TypeScript is not yet supported by Vue Play.
+                TypeScript is not yet supported by Vue Play
             </p>
         </article>
     </section>

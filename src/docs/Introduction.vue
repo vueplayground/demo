@@ -25,9 +25,6 @@
             <p style="margin-top:15px" class="text-lg">
                 When your are happy with your product, connect to Github and publish your site to Github Pages with just a few clicks.
             </p>
-            <p style="margin-top:15px" class="text-lg">
-                Have fun! :-)
-            </p>
         </article>
     </section>
 </template>
