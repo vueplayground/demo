@@ -13,13 +13,13 @@
                         Getting Started
                     </h3>
                     <ul class="space-y-1 ml-3 mt-4 border-l border-slate-400">
-                        <li class="hover:text-slate-900 text-slate-700 cursor-pointer pl-6" @click="$router.push('/documentation')" :class="{'font-semibold': $route.path === '/documentation','border-emerald-400': $route.path === '/documentation','border-l-4': $route.path === '/documentation'}" style="height:25px">
+                        <li class="hover:text-slate-900 text-slate-700 cursor-pointer pl-6" @click="$router.push('/documentation'), menu=false" :class="{'font-semibold': $route.path === '/documentation','border-emerald-400': $route.path === '/documentation','border-l-4': $route.path === '/documentation'}" style="height:25px">
                             Introduction
                         </li>
-                        <li @click="$router.push('/documentation/shortcuts')" class="hover:text-slate-900 text-slate-700 cursor-pointer pl-6" :class="{'font-semibold': $route.path === '/documentation/shortcuts','border-emerald-400': $route.path === '/documentation/shortcuts','border-l-4': $route.path === '/documentation/shortcuts'}">
+                        <li @click="$router.push('/documentation/shortcuts'), menu=false" class="hover:text-slate-900 text-slate-700 cursor-pointer pl-6" :class="{'font-semibold': $route.path === '/documentation/shortcuts','border-emerald-400': $route.path === '/documentation/shortcuts','border-l-4': $route.path === '/documentation/shortcuts'}">
                             Shortcuts
                         </li>
-                        <li @click="$router.push('/documentation/deployment')" class="hover:text-slate-900 text-slate-700 cursor-pointer pl-6" :class="{'font-semibold': $route.path === '/documentation/deployment','border-emerald-400': $route.path === '/documentation/deployment','border-l-4': $route.path === '/documentation/deployment'}">
+                        <li @click="$router.push('/documentation/deployment'), menu=false" class="hover:text-slate-900 text-slate-700 cursor-pointer pl-6" :class="{'font-semibold': $route.path === '/documentation/deployment','border-emerald-400': $route.path === '/documentation/deployment','border-l-4': $route.path === '/documentation/deployment'}">
                             Deployment
                         </li>
                     </ul>
@@ -27,16 +27,16 @@
                         Limitations
                     </h3>
                     <ul class="space-y-1 ml-3 mt-4 border-l border-slate-400">
-                        <li class="hover:text-slate-900 text-slate-700 cursor-pointer pl-6" @click="$router.push('/documentation/general')" :class="{'font-semibold': $route.path === '/documentation/general','border-emerald-400': $route.path === '/documentation/general','border-l-4': $route.path === '/documentation/general'}" style="height:25px">
+                        <li class="hover:text-slate-900 text-slate-700 cursor-pointer pl-6" @click="$router.push('/documentation/general'), menu=false" :class="{'font-semibold': $route.path === '/documentation/general','border-emerald-400': $route.path === '/documentation/general','border-l-4': $route.path === '/documentation/general'}" style="height:25px">
                             General
                         </li>
-                        <li class="hover:text-slate-900 text-slate-700 cursor-pointer pl-6" @click="$router.push('/documentation/composition-api')" :class="{'font-semibold': $route.path === '/documentation/composition-api','border-emerald-400': $route.path === '/documentation/composition-api','border-l-4': $route.path === '/documentation/composition-api'}" style="height:25px">
+                        <li class="hover:text-slate-900 text-slate-700 cursor-pointer pl-6" @click="$router.push('/documentation/composition-api'), menu=false" :class="{'font-semibold': $route.path === '/documentation/composition-api','border-emerald-400': $route.path === '/documentation/composition-api','border-l-4': $route.path === '/documentation/composition-api'}" style="height:25px">
                             Composition API
                         </li>
-                        <li class="hover:text-slate-900 text-slate-700 cursor-pointer pl-6" @click="$router.push('/documentation/typescript')" :class="{'font-semibold': $route.path === '/documentation/typescript','border-emerald-400': $route.path === '/documentation/typescript','border-l-4': $route.path === '/documentation/typescript'}" style="height:25px">
+                        <li class="hover:text-slate-900 text-slate-700 cursor-pointer pl-6" @click="$router.push('/documentation/typescript'), menu=false" :class="{'font-semibold': $route.path === '/documentation/typescript','border-emerald-400': $route.path === '/documentation/typescript','border-l-4': $route.path === '/documentation/typescript'}" style="height:25px">
                             TypeScript
                         </li>
-                        <li @click="$router.push('/documentation/v-bind')" class="hover:text-slate-900 text-slate-700 cursor-pointer pl-6" :class="{'font-semibold': $route.path === '/documentation/v-bind','border-emerald-400': $route.path === '/documentation/v-bind','border-l-4': $route.path === '/documentation/v-bind'}">
+                        <li @click="$router.push('/documentation/v-bind'), menu=false" class="hover:text-slate-900 text-slate-700 cursor-pointer pl-6" :class="{'font-semibold': $route.path === '/documentation/v-bind','border-emerald-400': $route.path === '/documentation/v-bind','border-l-4': $route.path === '/documentation/v-bind'}">
                             v-bind
                         </li>
                     </ul>
@@ -44,7 +44,7 @@
                         Other
                     </h3>
                     <ul class="space-y-1 ml-3 mt-4 border-l border-slate-400">
-                        <li class="hover:text-slate-900 text-slate-700 cursor-pointer pl-6" @click="$router.push('/documentation/faq')" :class="{'font-semibold': $route.path === '/documentation/faq','border-emerald-400': $route.path === '/documentation/faq','border-l-4': $route.path === '/documentation/faq'}" style="height:25px">
+                        <li class="hover:text-slate-900 text-slate-700 cursor-pointer pl-6" @click="$router.push('/documentation/faq'), menu=false" :class="{'font-semibold': $route.path === '/documentation/faq','border-emerald-400': $route.path === '/documentation/faq','border-l-4': $route.path === '/documentation/faq'}" style="height:25px">
                             FAQ
                         </li>
                     </ul>
