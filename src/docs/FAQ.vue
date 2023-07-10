@@ -1,6 +1,6 @@
 <template>
     <section class="p-6 pt-20 md:pt-6 pb-40">
-        <article class="max-w-2xl mx-auto mb-6 mt-4 shadow border rounded-lg bg-white p-6 overflow-auto">
+        <article class="max-w-2xl mx-auto mb-6 mt-4 shadow border rounded-lg bg-white px-6 py-12 overflow-auto">
             <h1 class="mb-12 text-4xl">
                 Frequently Asked Questions
             </h1>
