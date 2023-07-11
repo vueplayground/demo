@@ -1,5 +1,6 @@
 <template v-for="i in 8">
     <div class="bg-slate-100">
+        <metainfo />
         <VueNavigator class="z-10" />
         <header>
             <h1>
