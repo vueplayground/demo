@@ -1,6 +1,9 @@
 <template v-for="i in 8">
     <div class="bg-slate-100">
-        <metainfo />
+        <teleport to="head">
+            <title>Features</title>
+            <meta name="description" content="Features description" />
+        </teleport>
         <VueNavigator class="z-10" />
         <header>
             <h1>
@@ -171,16 +174,6 @@
     import VueNavigator from "@/components/Navigator.vue";
     import Footer from "@/components/Footer.vue";
     export default {
-        metaInfo() {
-            return {
-                title: "Features",
-                description: "Features description",
-                htmlAttrs: {
-                    lang: "en",
-                    amp: true
-                }
-            }
-        },
         setup() {},
         components: {
             VueNavigator,
