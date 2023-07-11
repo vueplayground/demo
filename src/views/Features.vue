@@ -1,9 +1,7 @@
 <template v-for="i in 8">
+    <Meta title="Features" description="Features of Vue Play">
+    </Meta>
     <div class="bg-slate-100">
-        <teleport to="head">
-            <title>Features</title>
-            <meta name="description" content="Features description" />
-        </teleport>
         <VueNavigator class="z-10" />
         <header>
             <h1>
@@ -173,11 +171,13 @@
 <script>
     import VueNavigator from "@/components/Navigator.vue";
     import Footer from "@/components/Footer.vue";
+    import Meta from "@/components/Meta.vue";
     export default {
         setup() {},
         components: {
             VueNavigator,
-            Footer
+            Footer,
+            Meta
         },
         data: () => ({}),
         methods: {

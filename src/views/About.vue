@@ -1,4 +1,6 @@
 <template>
+    <Meta>
+    </Meta>
     <div class="bg-slate-100 flex flex-col h-screen overflow-auto">
         <VueNavigator class="z-20" />
         <header class="">
@@ -36,6 +38,7 @@
 <script>
     import VueNavigator from "@/components/Navigator.vue";
     import Footer from "@/components/Footer.vue";
+    import Meta from "@/components/Meta.vue";
     export default {
         components: {
             VueNavigator,
