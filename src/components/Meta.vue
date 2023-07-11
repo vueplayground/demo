@@ -1,11 +1,12 @@
-<template></template>
+<template>
+    <Teleport to="head title">{{title || 'Vue Play'}}</Teleport>
+</template>
 <script>
-export default {
-    props: ['title', 'description'],
-    created() {
-        document.head.children.title = this.title || 'Vue Play'
-        document.head.children.description = this.description || 'Design Vue files with a drag & drop template builder. Use playground to create your new web app'
+    export default {
+        props: ['title', 'description'],
+        created() {
+            if (this.description) document.head.children.description = this.description
+        }
     }
-}
 </script>
 <style scoped></style>
