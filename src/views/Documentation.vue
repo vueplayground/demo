@@ -1,4 +1,6 @@
 <template v-for="i in 8">
+    <Meta name="Documentation" description="Vue Play documentation">
+    </Meta>
     <div class="bg-slate-100 flex flex-col h-screen">
         <VueNavigator class="absolute flex z-50" />
         <main style="width:100%" class="relative overflow-auto flex-1 h-full">
@@ -59,10 +61,12 @@
 <script>
     import VueNavigator from "@/components/Navigator.vue";
     import Footer from "@/components/Footer.vue";
+    import Meta from "@/components/Meta.vue";
     export default {
         components: {
             VueNavigator,
-            Footer
+            Footer,
+            Meta
         },
         data: () => ({
             menu: false

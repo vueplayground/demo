@@ -42,7 +42,8 @@
     export default {
         components: {
             VueNavigator,
-            Footer
+            Footer,
+            Meta
         },
         data: () => ({}),
         methods: {

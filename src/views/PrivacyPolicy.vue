@@ -1,4 +1,6 @@
 <template>
+    <Meta name="Privacy Policy" description="Vue Play privacy policy">
+    </Meta>
     <div class="bg-slate-100">
         <VueNavigator class="z-10" />
         <header>
@@ -9,9 +11,11 @@
         </header>
         <main>
             <section style="margin:auto" class="max-w-xl container">
-                <p>Vue Playground (“we,” “our,” or “us”) is committed to protecting your privacy. This Privacy Policy explains how your personal information is collected, used, and disclosed by Vue Playground.</p>
                 <p>
-                    This Privacy Policy applies to our website, and its associated subdomains (collectively, our “Service”) alongside our application, Vue Playground.
+                    Vue Play (“we,” “our,” or “us”) is committed to protecting your privacy. This Privacy Policy explains how your personal information is collected, used, and disclosed by Vue Play.
+                </p>
+                <p>
+                    This Privacy Policy applies to our website, and its associated subdomains (collectively, our “Service”) alongside our application, Vue Play.
                     By accessing or using our Service, you signify that you have read, understood, and agree to our collection, storage, use, and disclosure of your personal information as described in this Privacy Policy and our Terms of Service.
                 </p>
                 <h2>Definitions and key terms</h2>
@@ -174,10 +178,12 @@
 <script>
     import VueNavigator from "@/components/Navigator.vue";
     import Footer from "@/components/Footer.vue";
+    import Meta from "@/components/Meta.vue";
     export default {
         components: {
             VueNavigator,
-            Footer
+            Footer,
+            Meta
         }
     };
 </script>

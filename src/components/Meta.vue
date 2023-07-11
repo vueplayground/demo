@@ -1,5 +1,5 @@
 <template>
-    <Transform to="head">
+    <Teleport to="head">
         <meta charset="UTF-8" />
         <title>{{title || 'Vue Play'}}</title>
         <meta name="description" :content="description || 'Design Vue files with a drag & drop template builder. Use playground to create your new web app.'" />
@@ -18,7 +18,7 @@
         <meta name="theme-color" content="#ffffff">
         <link rel="canonical" href="https://vueplay.com">
         <link rel="icon shortcut" type="image/x-icon" href="favicon.ico">
-    </Transform>
+    </Teleport>
 </template>
 <script>
     export default {

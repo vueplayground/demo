@@ -1,4 +1,6 @@
 <template>
+    <Meta name="Release Log" description="Vue Play release log">
+    </Meta>
     <div class="bg-slate-100">
         <VueNavigator class="z-10" />
         <header>
@@ -133,10 +135,12 @@
 <script>
     import VueNavigator from "@/components/Navigator.vue";
     import Footer from "@/components/Footer.vue";
+    import Meta from "@/components/Meta.vue";
     export default {
         components: {
             VueNavigator,
-            Footer
+            Footer,
+            Meta
         }
     };
 </script>
