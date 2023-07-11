@@ -1,5 +1,5 @@
 <template>
-    <Meta name="Privacy Policy" description="Vue Play privacy policy">
+    <Meta description="Vue Play privacy policy" title="Privacy Policy">
     </Meta>
     <div class="bg-slate-100">
         <VueNavigator class="z-10" />

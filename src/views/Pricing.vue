@@ -1,5 +1,5 @@
 <template>
-    <Meta name="Pricing" description="Vue Play Pricing">
+    <Meta description="Vue Play Pricing" title="Pricing">
     </Meta>
     <div class="space-y-0 bg-slate-100 flex flex-col h-screen">
         <VueNavigator class="z-10" />

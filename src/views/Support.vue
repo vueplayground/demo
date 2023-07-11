@@ -1,5 +1,5 @@
 <template>
-    <Meta name="Support" description="Vue Play support">
+    <Meta description="Vue Play support" title="Support">
     </Meta>
     <div class="space-y-0 bg-slate-100 flex flex-col h-screen">
         <VueNavigator class="z-10" />

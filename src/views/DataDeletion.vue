@@ -1,5 +1,5 @@
 <template>
-    <Meta name="Data Deletion" description="Request deletion by sending us an email.">
+    <Meta description="Request deletion by sending us an email." title="Data Deletion">
     </Meta>
     <div class="space-y-0 bg-slate-100 flex flex-col h-screen">
         <VueNavigator class="z-10" />

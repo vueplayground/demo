@@ -1,5 +1,5 @@
 <template>
-    <Meta name="Terms of service" description="Vue Play terms of service">
+    <Meta description="Vue Play terms of service" title="Terms of service">
     </Meta>
     <div class="bg-slate-100">
         <VueNavigator class="z-10" />
