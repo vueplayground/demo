@@ -1,7 +1,7 @@
 {
-    "homepage": "https://vueplayground.com",
-    "name": "@jscomp/demo",
-    "version": "1.0.2",
+    "homepage": "https://vueplay.com",
+    "name": "@vueplayground/demo",
+    "version": "1.0.0",
     "type": "module",
     "scripts": {
         "dev": "vite",

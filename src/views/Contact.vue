@@ -1,16 +1,22 @@
 <template>
-    <Meta description="Vue Play support" title="Support">
-    </Meta>
-    <div class="space-y-0 bg-slate-100 flex flex-col h-screen">
+    <div class="bg-slate-50">
         <VueNavigator class="z-10" />
         <header>
             <h1 class="text-6xl mt-12 mb-6">
-                Support
+                Contact
             </h1>
         </header>
-        <main class="grow bg-slate-100">
-            <section style="margin:auto" class="pb-24 max-w-2xl container">
-                <p>Don't hesitate to contact us if you have any questions.</p><a href="mailto:steffan@siglar.no" class="">steffan@siglar.no</a>
+        <main>
+            <section style="margin:auto" class="max-w-2xl container">
+                <h2 class="pb-6">
+                    We are here for you
+                </h2>
+                <address>
+                    <label for="">Address</label><br /><a href="mailto: company@example.com" target="_blank">company@example.com</a><br /><a href="tel: 999 888 999" target="_blank">999 888 999</a>
+                </address>
+                <p>
+                    Lorem ipsum dolor sit amet
+                </p>
             </section>
         </main>
         <Footer />
@@ -19,25 +25,14 @@
 <script>
     import VueNavigator from "@/components/Navigator.vue";
     import Footer from "@/components/Footer.vue";
-    import Meta from "@/components/Meta.vue";
     export default {
         components: {
             VueNavigator,
-            Footer,
-            Meta
+            Footer
         }
     };
 </script>
 <style scoped>
-    body,
-    html,
-    #app {
-        margin-top: 0px;
-        margin-left: 0px;
-        margin-bottom: 0px;
-        margin-right: 0px;
-    }
-
     main {
         display: inline-block;
         text-align: left;
@@ -66,7 +61,8 @@
 
     h2 {
         font-size: 30px;
-        margin-top: 100px;
+        margin-top: 30px;
+        margin-bottom: 10px;
         text-align: left;
     }
 </style>
