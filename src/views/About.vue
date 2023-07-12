@@ -1,6 +1,5 @@
 <template>
-    <Meta>
-    </Meta>
+    <Meta />
     <div class="bg-slate-100 flex flex-col h-screen overflow-auto">
         <VueNavigator class="z-20" />
         <header class="">
