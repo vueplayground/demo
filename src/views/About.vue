@@ -23,7 +23,7 @@
                 </button> <button @click="$router.push('/pricing')" class="bg-slate-200 transition-shadow hover:drop-shadow-lg drop-shadow">
                     Pricing
                 </button><button @click="open('https://studio.vueplay.com')" class="bg-purple-500 from-blue-500 bg-gradient-to-br hover:bg-purple-600 hover:from-blue-600 text-white duration-300 transition hover:drop-shadow-lg drop-shadow">
-                    Get Started ⇾
+                    Open Studio ⇾
                 </button> </section>
             <section>
                 <div style="background-size:contain;background-position:center;background-repeat:no-repeat;margin-right:auto;margin-left:auto;margin-top:70px;position:relative;margin-bottom:50px;max-width:calc(100% - 40px);aspect-ratio:1/.517;box-sizing:border-box;width:700px" class="shadow-slate-200 shadow-xl screenshot">
