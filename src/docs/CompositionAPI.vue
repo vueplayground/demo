@@ -35,6 +35,8 @@ export default() {
             </a>
         </article>
     </section>
+    <Meta title="Composition API">
+    </Meta>
 </template>
 <script>
     import Meta from "@/components/Meta.vue";
