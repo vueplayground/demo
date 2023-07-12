@@ -1,5 +1,7 @@
 <template>
     <section class="p-6 pt-20 md:pt-6 pb-40">
+        <Meta title="Keyboard Shortcuts">
+        </Meta>
         <article class="max-w-2xl mx-auto mb-6 mt-4 shadow border rounded-lg bg-white px-12 py-14 overflow-auto">
             <h1 class="mb-6 text-4xl">
                 Keyboard Shortcuts
@@ -153,7 +155,11 @@
     </section>
 </template>
 <script>
+    import Meta from "@/components/Meta.vue";
     export default {
+        components: {
+            Meta
+        },
         data: () => ({}),
         computed: {
             isMac() {

@@ -1,5 +1,7 @@
 <template>
     <section class="p-6 pt-20 md:pt-6 pb-40">
+        <Meta title="Frequently Asked Questions" description="Vue Play was created to simplify web development in a visual way, inspired by several tools like Elementor, Adobe Photoshop, Adobe Flash and GameMaker.">
+        </Meta>
         <article class="max-w-2xl mx-auto mb-6 mt-4 shadow border rounded-lg bg-white px-12 py-14 overflow-auto">
             <h1 class="mb-12 text-4xl">
                 Frequently Asked Questions
@@ -9,13 +11,32 @@
                     Why was Vue Play created?
                 </p>
                 <p class="text-lg" style="margin-bottom:10px">
-                    Vue Play was created to simplify web development in a visual way, inspired by several tools like Elementor, Adobe Photoshop, GameMaker, BlueVoda, Adobe Flash and so on.
+                    Vue Play was created to simplify web development in a visual way, inspired by several tools like
+                    <a href="https://elementor.com/" target="_blank" class="hover:text-blue-700 text-blue-600">
+                        Elementor,
+                    </a> <a href="https://www.adobe.com/no/products/photoshop" target="_blank" class="hover:text-blue-700 text-blue-600">
+                        Adobe Photoshop,
+                    </a> <a href="https://www.adobe.com/no/products/flash" target="_blank" class="hover:text-blue-700 text-blue-600">
+                        Adobe Flash
+                    </a>
+                    and
+                    <a href="https://gamemaker.io" target="_blank" class="hover:text-blue-700 text-blue-600">
+                        GameMaker.
+                    </a>
                 </p>
                 <p class="text-lg" style="margin-bottom:10px">
                     The main difference is that it is built up the "Vue.js" way which opens allot of opportunities like building everything from ground up with components.
                 </p>
                 <p class="text-lg">
-                    It also opens up possibilities to connect Vue Play with frameworks like Electron to create Native Software for Windows, Mac & Linux or Capacitor by Ionic to build IOS and Android apps in the future!
+                    It also opens up possibilities to connect Vue Play with frameworks like
+                    <a href="https://www.electronjs.org/" target="_blank" class="hover:text-blue-700 text-blue-600">
+                        Electron
+                    </a>
+                    to create Native Software for Windows, Mac & Linux or
+                    <a href="https://capacitorjs.com/" target="_blank" class="hover:text-blue-700 text-blue-600">
+                        Capacitor
+                    </a>
+                    by Ionic to build IOS and Android apps in the future!
                 </p>
             </div>
             <div class="bg-slate-50 border mb-6 rounded-lg p-8">
@@ -57,7 +78,11 @@
     </section>
 </template>
 <script>
+    import Meta from "@/components/Meta.vue";
     export default {
+        components: {
+            Meta
+        },
         data: () => ({})
     };
 </script>

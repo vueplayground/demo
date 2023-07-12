@@ -1,14 +1,16 @@
 <template>
     <section class="p-6 pt-20 md:pt-6 pb-40">
+        <Meta title="v-bind" description="Currently v-bind is not supported by Vue Play. Style binding with the computed hook in the Options API can be used in the meantime for reactive style binding.">
+        </Meta>
         <article class="max-w-2xl mx-auto mb-6 mt-4 shadow border rounded-lg bg-white px-12 py-14 overflow-auto">
             <h1 class="mb-6 text-4xl">
                 v-bind
             </h1>
             <p style="margin-top:15px" class="text-xl py-2 font-medium">
-                Currently v-bind in the stylesheet is not supported.
+                Currently v-bind is not supported by Vue Play.
             </p>
             <p style="margin-top:15px" class="text-lg">
-                In the mean time, you can use style binding with the computed hook in the Options API instead:
+                Style binding with the computed hook in the Options API can be used in the meantime for reactive style binding:
             </p>
             <pre style="margin-top:15px" class="text-white rounded bg-slate-900 p-4 text-lg overflow-auto">
 <code>
@@ -28,7 +30,11 @@ export default() {
     </section>
 </template>
 <script>
+    import Meta from "@/components/Meta.vue";
     export default {
+        components: {
+            Meta
+        },
         data: () => ({})
     };
 </script>
