@@ -18,9 +18,6 @@
                         <li class="hover:text-slate-900 text-slate-700 cursor-pointer pl-6" @click="$router.push('/documentation'), menu=false" :class="{'font-semibold': $route.path === '/documentation','border-emerald-400': $route.path === '/documentation','border-l-4': $route.path === '/documentation'}" style="height:25px">
                             Introduction
                         </li>
-                        <li @click="$router.push('/documentation/shortcuts'), menu=false" class="hover:text-slate-900 text-slate-700 cursor-pointer pl-6" :class="{'font-semibold': $route.path === '/documentation/shortcuts','border-emerald-400': $route.path === '/documentation/shortcuts','border-l-4': $route.path === '/documentation/shortcuts'}">
-                            Keyboard Shortcuts
-                        </li>
                         <li @click="$router.push('/documentation/deployment'), menu=false" class="hover:text-slate-900 text-slate-700 cursor-pointer pl-6" :class="{'font-semibold': $route.path === '/documentation/deployment','border-emerald-400': $route.path === '/documentation/deployment','border-l-4': $route.path === '/documentation/deployment'}">
                             Deployment
                         </li>
