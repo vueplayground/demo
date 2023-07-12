@@ -4,7 +4,7 @@
     <div class="bg-slate-100">
         <VueNavigator class="z-10" />
         <header>
-            <h1>
+            <h1 class="text-6xl mt-12 mb-6">
                 Privacy Policy
             </h1>
             <p>Updated 28.04.2023</p>
@@ -221,12 +221,6 @@
         color: #6b6b6bff;
         margin-top: 50px;
         margin-bottom: 15px;
-    }
-
-    h1 {
-        font-size: 60px;
-        margin-top: 50px;
-        margin-bottom: 30px;
     }
 
     h2 {

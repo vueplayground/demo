@@ -5,15 +5,17 @@
         <header class="">
             <div style="background-size:contain;background-position:center;background-repeat:no-repeat;width:266px;height:125px;margin-right:auto;margin-left:auto;margin-top:40px;position:relative;max-width:calc(100% - 100px);margin-bottom:-20px;left:5px" class="logo">
             </div>
-            <h1 style="text-shadow:0px 0px">
+            <div style="text-shadow:0px 0px" class="text-5xl mt-2">
                 <em style="margin-top:28px">
                     Drag & Drop
-                </em> <br />
-                Builder
-            </h1>
-            <p style="width:calc(100% - 40px);margin:auto;margin-top:40px;margin-bottom:40px">
+                </em>
+                <div class="mt-4">
+                    Builder
+                </div>
+            </div>
+            <h1 style="width:calc(100% - 40px);margin:auto;margin-top:40px;margin-bottom:40px" class="text-xl">
                 Create Vue Applications using a Graphical Designer
-            </p>
+            </h1>
         </header>
         <main style="width:100%" class="grow">
             <section style="width:100%"><button @click="$router.push('/features')" class="hover:bg-slate-300 bg-slate-200 transition-shadow hover:drop-shadow-lg drop-shadow">
@@ -74,20 +76,6 @@
         font-family: verdana;
         padding-top: 10px;
         padding-bottom: 10px;
-    }
-
-    p {
-        font-size: 20px;
-        margin-top: 50px;
-        margin-bottom: 50px;
-        color: #7a7a7aff;
-    }
-
-    h1 {
-        font-size: 45px;
-        margin-top: 5px;
-        margin-bottom: 30px;
-        color: #242c36ff;
     }
 
     em {

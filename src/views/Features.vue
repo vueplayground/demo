@@ -1,15 +1,15 @@
 <template v-for="i in 8">
-    <Meta title="Features" description="Features of Vue Play">
+    <Meta title="Features" description="Vue Play is a full drag & drop designer for building vue components, websites and web applications.">
     </Meta>
     <div class="bg-slate-100">
         <VueNavigator class="z-10" />
         <header>
-            <h1>
+            <h1 class="text-6xl mt-12 mb-6">
                 Features
             </h1>
-            <p style="margin-right:auto;margin-left:auto;max-width:calc(100% - 40px);width:700px" class="text-slate-600 my-4 text-xl">
+            <h1 style="margin-right:auto;margin-left:auto;max-width:calc(100% - 40px);width:700px" class="text-slate-600 my-4 text-xl">
                 Vue Play is a full drag & drop designer for building vue components, websites and web applications.
-            </p>
+            </h1>
         </header>
         <main style="text-align:center;width:100%;margin-bottom:50px">
             <section class="p-6 xl:grid-cols-4 lg:grid-cols-3 sm:grid-cols-2 container m-auto grid gap-6">
@@ -206,12 +206,6 @@
         font-family: verdana;
         padding-top: 10px;
         padding-bottom: 10px;
-    }
-
-    h1 {
-        font-size: 60px;
-        margin-top: 50px;
-        margin-bottom: 30px;
     }
 
     em {

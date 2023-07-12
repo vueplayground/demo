@@ -4,7 +4,7 @@
     <div class="bg-slate-100">
         <VueNavigator class="z-10" />
         <header>
-            <h1>
+            <h1 class="text-6xl mt-12 mb-6">
                 Release Log
             </h1>
         </header>
@@ -163,12 +163,6 @@
         font-family: verdana;
         padding-top: 10px;
         padding-bottom: 10px;
-    }
-
-    h1 {
-        font-size: 60px;
-        margin-top: 50px;
-        margin-bottom: 30px;
     }
 
     h2 {

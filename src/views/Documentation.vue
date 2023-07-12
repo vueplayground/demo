@@ -1,5 +1,5 @@
 <template v-for="i in 8">
-    <Meta description="Vue Play documentation" title="Documentation">
+    <Meta description="Read the Vue Play documentation for better insights to the software." title="Documentation">
     </Meta>
     <div class="bg-slate-100 flex flex-col h-screen">
         <VueNavigator class="absolute flex z-50" />
