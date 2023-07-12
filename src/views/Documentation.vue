@@ -21,7 +21,7 @@
                         <li @click="$router.push('/documentation/deployment'), menu=false" class="hover:text-slate-900 text-slate-700 cursor-pointer pl-6" :class="{'font-semibold': $route.path === '/documentation/deployment','border-emerald-400': $route.path === '/documentation/deployment','border-l-4': $route.path === '/documentation/deployment'}">
                             Deployment
                         </li>
-                        <li @click="$router.push('/documentation/keyboard-shortcuts'), menu=false" class="hover:text-slate-900 text-slate-700 cursor-pointer pl-6" :class="{'font-semibold': $route.path === '/documentation/shortcuts','border-emerald-400': $route.path === '/documentation/shortcuts','border-l-4': $route.path === '/documentation/shortcuts'}">
+                        <li @click="$router.push('/documentation/keyboard-shortcuts'), menu=false" class="hover:text-slate-900 text-slate-700 cursor-pointer pl-6" :class="{'font-semibold': $route.path === '/documentation/keyboard-shortcuts','border-emerald-400': $route.path === '/documentation/keyboard-shortcuts','border-l-4': $route.path === '/documentation/keyboard-shortcuts'}">
                             Keyboard Shortcuts
                         </li>
                     </ul>
@@ -29,7 +29,7 @@
                         General
                     </h3>
                     <ul class="space-y-1 ml-3 mt-4 border-l border-slate-400">
-                        <li class="hover:text-slate-900 text-slate-700 cursor-pointer pl-6" @click="$router.push('/documentation/limitations'), menu=false" :class="{'font-semibold': $route.path === '/documentation/general','border-emerald-400': $route.path === '/documentation/general','border-l-4': $route.path === '/documentation/general'}" style="height:25px">
+                        <li class="hover:text-slate-900 text-slate-700 cursor-pointer pl-6" @click="$router.push('/documentation/limitations'), menu=false" :class="{'font-semibold': $route.path === '/documentation/limitations','border-emerald-400': $route.path === '/documentation/limitations','border-l-4': $route.path === '/documentation/limitations'}" style="height:25px">
                             Limitations
                         </li>
                         <li class="hover:text-slate-900 text-slate-700 cursor-pointer pl-6" @click="$router.push('/documentation/composition-api'), menu=false" :class="{'font-semibold': $route.path === '/documentation/composition-api','border-emerald-400': $route.path === '/documentation/composition-api','border-l-4': $route.path === '/documentation/composition-api'}" style="height:25px">
