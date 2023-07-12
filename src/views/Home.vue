@@ -13,7 +13,7 @@
                     Home
                 </button> <button @click="$router.push('/about')" class="bg-slate-200 transition-shadow hover:drop-shadow-lg drop-shadow">
                     About
-                </button><button @click="$router.push('/contact')" class="bg-purple-500 from-blue-500 bg-gradient-to-br hover:bg-purple-600 hover:from-blue-600 text-white duration-300 transition hover:drop-shadow-lg drop-shadow">
+                </button><button @click="$router.push('/contact')" class="bg-purple-400 from-purple-500 bg-gradient-to-br hover:bg-purple-600 hover:from-purple-600 text-white duration-300 transition hover:drop-shadow-lg drop-shadow">
                     Contact ⇾
                 </button> </section>
             <section>
