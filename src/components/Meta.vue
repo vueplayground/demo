@@ -11,7 +11,7 @@ export default {
         }
     }),
     created() {
-        document.title = (this.title + ' - Vue Play') || this.defaults.title
+        document.title = this.title ? (this.title + ' - Vue Play') : this.defaults.title
         this.ensureMeta('description')
         this.ensureMeta('keywords')
         this.ensureMeta('author')
