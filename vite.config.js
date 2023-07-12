@@ -1,4 +1,3 @@
-import fs from 'fs'
 import {
     fileURLToPath,
     URL
@@ -8,10 +7,6 @@ import {
 } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import dataUri from '@rollup/plugin-data-uri'
-
-if (fs.existsSync('./cache')) fs.rmSync('./cache', {
-    recursive: true
-})
 
 export default defineConfig({
     plugins: [vue(), dataUri()],
