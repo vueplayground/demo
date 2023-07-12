@@ -35,8 +35,8 @@ const routes = [{
         component: () => import('@/docs/FAQ.vue')
     },
     {
-        path: 'general',
-        component: () => import('@/docs/General.vue')
+        path: 'limitations',
+        component: () => import('@/docs/Limitations.vue')
     },
     {
         path: 'composition-api',
