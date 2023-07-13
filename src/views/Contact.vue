@@ -9,7 +9,7 @@
         <main>
             <section style="margin:auto" class="max-w-2xl container">
                 <h2 class="pb-6">
-                    We are here for you
+                    Your Company
                 </h2>
                 <address>
                     <label for="">Address</label><br /><a href="mailto: company@example.com" target="_blank">company@example.com</a><br /><a href="tel: 999 888 999" target="_blank">999 888 999</a>
