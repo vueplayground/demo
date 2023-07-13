@@ -167,30 +167,4 @@
     section button:last-child {
         margin-right: 0px;
     }
-
-    .feature-list {
-        background-color: #74AE86;
-        color: #ffffffff;
-        text-align: left;
-        padding: 20px 30px;
-        box-sizing: border-box;
-        border-top-left-radius: 8px;
-        border-top-right-radius: 8px;
-        border-bottom-left-radius: 8px;
-        border-bottom-right-radius: 8px;
-        margin-bottom: 50px;
-        margin-top: 40px;
-        max-width: calc(100% - 40px);
-        margin-right: auto;
-        margin-left: auto;
-        width: 500px;
-    }
-
-    .feature-list>div {
-        background-image: url(@/assets/check.png);
-        background-position: 0px 6px;
-        background-repeat: no-repeat;
-        background-size: auto 20px;
-        padding: 5px 30px;
-    }
 </style>
