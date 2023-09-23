@@ -1,47 +1,50 @@
 <template>
-	<nav
-		class="bg-gray-500 h-12 w-full block top-0 sticky text-right shadow border-slate-300 border-b">
-		<div style="width:83px;background-size:contain;background-repeat:no-repeat;margin-left:10px;cursor:pointer;float:left;height:35px;margin-top:7px;margin-bottom:7px"
+	<nav class="bg-gray-500 h-12 w-full block top-0 sticky text-right shadow border-slate-300 border-b">
+		<div
+			style="width:83px;background-size:contain;background-repeat:no-repeat;margin-left:10px;cursor:pointer;float:left;height:35px;margin-top:7px;margin-bottom:7px"
 			@click="$router.push('/')"
-			class="rounded-full logo">
-		</div><button @click="$router.push('/')"
+			class="rounded-full logo"
+		>
+		</div><button
+			@click="$router.push('/')"
 			:class="{active: route === '/'}"
-			class="text-slate-200 hover:text-slate-50">
+			class="text-slate-200 hover:text-slate-50"
+		>
 			Home
-		</button> <button @click="$router.push('/about')"
+		</button> <button
+			@click="$router.push('/about')"
 			:class="{active: route === '/about'}"
-			class="text-slate-200 hover:text-slate-50">
+			class="text-slate-200 hover:text-slate-50"
+		>
 			About
-		</button><button @click="$router.push('/contact')"
+		</button><button
+			@click="$router.push('/contact')"
 			:class="{active: route === '/contact'}"
-			class="text-slate-200 hover:text-slate-50">
+			class="text-slate-200 hover:text-slate-50"
+		>
 			Contact
 		</button>
 	</nav>
-	<TopMenu>
-		<template v-slot:logo="">
-			Logo is replaced for sure!
-		</template>
-		<li>
-			<ul>
-				<li>List item 1</li>
-				<li>List item 2</li>
-				<li>List item 3</li>
-			</ul>
-			Hey
-		</li>
-		<li>
-			Ho
-		</li>
-	</TopMenu>
 	<TopMenu></TopMenu>
 </template>
 <script>
 	import TopMenu from "@/vueplay/TopMenu.vue";
-	export default { components: { TopMenu: TopMenu },
-	data: () => ({}), computed: { route() { return this.$route
-					.path } }, methods: { open(url) { location
-					.href = url } } };
+	export default {
+		components: {
+			TopMenu: TopMenu
+		},
+		data: () => ({}),
+		computed: {
+			route() {
+				return this.$route.path;
+			}
+		},
+		methods: {
+			open(url) {
+				location.href = url;
+			}
+		}
+	};
 
 </script>
 <style scoped>
