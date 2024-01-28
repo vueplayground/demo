@@ -25,7 +25,11 @@
 			Contact
 		</button>
 	</nav>
-	<TopMenu></TopMenu>
+	<TopMenu>
+		<div>
+			test
+		</div>
+	</TopMenu>
 </template>
 <script>
 	import TopMenu from "@/vueplay/TopMenu.vue";
