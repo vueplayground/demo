@@ -26,9 +26,9 @@
 		</button>
 	</nav>
 	<TopMenu>
-		<div>
+		<li>
 			test
-		</div>
+		</li>
 	</TopMenu>
 </template>
 <script>
